@@ -1,1 +1,2 @@
-ubirator
+Расширение 1С "Интеграция" для ubirator.com
+
