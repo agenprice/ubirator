@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Catalog uuid="f5a2d661-e7d0-41ac-a192-e31a3fee8fda">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФизическиеЛицаПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>e5fc79ca-81eb-4ed2-b3b0-d46d3a06d135</xr:TypeId>
+				<xr:ValueId>17b2ecca-8015-4227-b6fe-aab4702c70a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФизическиеЛицаПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>e7e6e466-e639-46b4-a6f7-9083b39774cf</xr:TypeId>
+				<xr:ValueId>c2bb9e71-3e26-4044-95ec-a0deda0a743a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФизическиеЛицаПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>e7ed4162-c8ed-4596-9b37-dd8fcbfe964f</xr:TypeId>
+				<xr:ValueId>79543deb-f9b4-4326-a5a2-8c813dea7b3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФизическиеЛицаПрисоединенныеФайлы" category="List">
+				<xr:TypeId>e6bff3d2-2f46-4ed4-a5a8-21184ca262ed</xr:TypeId>
+				<xr:ValueId>397b7d6f-5d5d-4dee-8101-070341506bb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФизическиеЛицаПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>31a58fb1-1b53-41c0-b40c-7ec2e6ecd19a</xr:TypeId>
+				<xr:ValueId>86aeaf3e-1d81-49f7-be73-6c7f36c9fd97</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФизическиеЛицаПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c70f03b7-38e7-4044-8cce-236be2154dd7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6cb44927-205a-4402-8c5e-53367f10eace">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФайлХранилище</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fda38a4b-4d95-4338-8390-e8f90976a805</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

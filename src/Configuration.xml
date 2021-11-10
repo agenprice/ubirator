@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.2</Version>
+			<Version>1.0.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -66,9 +66,15 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
+			<CommonTemplate>ПФ_MXL_ТОРГ12_Переопределяемый</CommonTemplate>
+			<CommonTemplate>ПФ_MXL_Акт_Переопределяемый</CommonTemplate>
+			<CommonTemplate>ПФ_MXL_СчетЗаказ_Переопределяемый</CommonTemplate>
+			<CommonTemplate>ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый</CommonTemplate>
 			<CommonModule>ИнтеграцияОбщийМодуль</CommonModule>
+			<CommonModule>ПечатьТорговыхДокументовПереопределяемый</CommonModule>
 			<HTTPService>Интеграция</HTTPService>
 			<Catalog>Организации</Catalog>
+			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>

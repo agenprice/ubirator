@@ -2,9 +2,22 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
 		<Metadata name="Catalog.Организации" id="fe9d6ff4-0d67-420c-a87a-964df7e3b9ca" configVersion="d06065d0a17bf5068eae603941f8d5b24eb11b82"/>
+		<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы" id="f5a2d661-e7d0-41ac-a192-e31a3fee8fda" configVersion="0695570686deda99d3dc8360816902b4d46a83cb">
+			<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы.Attribute.ФайлХранилище" id="6cb44927-205a-4402-8c5e-53367f10eace"/>
+		</Metadata>
 		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль" id="397931c3-2f5e-4916-b435-f07854cc7307" configVersion="9990cf0ed0db42619be4adcd02dfe96e3922f59b"/>
-		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль.Module" id="397931c3-2f5e-4916-b435-f07854cc7307.0" configVersion="863a6c422abb76736657e1c17e0b845a3d0ada34"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="f8df60d325225df8c5019de425268098ea474227"/>
+		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль.Module" id="397931c3-2f5e-4916-b435-f07854cc7307.0" configVersion="0b23cabb1aa37c15cfc2a616927f2ec6297ee633"/>
+		<Metadata name="CommonModule.ПечатьТорговыхДокументовПереопределяемый" id="04eb38f0-bab2-4879-8551-cb01031eb003" configVersion="109f6c279b13238eab858e145a54a18580ac9897"/>
+		<Metadata name="CommonModule.ПечатьТорговыхДокументовПереопределяемый.Module" id="04eb38f0-bab2-4879-8551-cb01031eb003.0" configVersion="39031fe908a4e7b3b6d4877d8992f40eee850930"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_Акт_Переопределяемый" id="71dd836b-38b3-4d2c-90d3-9ada0af11af9" configVersion="91c4eddfa8beb30fcd38933301b5f14cc660ea1c"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_Акт_Переопределяемый.Template" id="71dd836b-38b3-4d2c-90d3-9ada0af11af9.0" configVersion="0d33e1cac61258fcbc2b7d2805a16a8c8f572871"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_СчетЗаказ_Переопределяемый" id="074d5257-3b2d-4def-976f-b1e9a0b12243" configVersion="cbb622a515296dce22c0327e482b2fccb2b0d21b"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_СчетЗаказ_Переопределяемый.Template" id="074d5257-3b2d-4def-976f-b1e9a0b12243.0" configVersion="81a60071b250a6d1831659cf4a8440a936c0a567"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый" id="700e8c24-cef2-4c21-ba19-23512c9571e9" configVersion="ed0833aaf50169b8250df64917a7e91c6ddf0a82"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый.Template" id="700e8c24-cef2-4c21-ba19-23512c9571e9.0" configVersion="d85a57323d1fe2ed687ee8bf359e03258df05fe4"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый" id="1c6a89a0-3d3f-4e75-8972-717449100ff6" configVersion="9b034a4997884187d4bb3cf3e0cb224e04af2979"/>
+		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый.Template" id="1c6a89a0-3d3f-4e75-8972-717449100ff6.0" configVersion="546b52c3d5e06e6cd831269174ec3679198c33d2"/>
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="3d85e059af59bb23dbf3de1ed6c6ac1ac94e285f"/>
 		<Metadata name="Document.РеализацияТоваровУслуг" id="c1d8c93e-c85c-4568-ad3c-6559604b7d69" configVersion="87cce3852452262a8df4ff678a773f2519191aa5"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю" id="0897e15f-2008-4743-a1be-26719b24b667" configVersion="8a6c6e47580be9e61ee452865df91823f11a3a71">
 			<Metadata name="Document.СчетНаОплатуПокупателю.Attribute.Организация" id="3ad4c3fa-6765-490c-88fe-5f23ab187cd1"/>
