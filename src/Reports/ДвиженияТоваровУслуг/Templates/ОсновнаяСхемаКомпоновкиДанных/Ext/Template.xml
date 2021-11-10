@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетДт</dataPath>
+			<field>СчетДт</field>
+			<title xsi:type="xs:string">Счет (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетКт</dataPath>
+			<field>СчетКт</field>
+			<title xsi:type="xs:string">Счет (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт1</dataPath>
+			<field>СубконтоДт1</field>
+			<title xsi:type="xs:string">Субконто1 (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт2</dataPath>
+			<field>СубконтоДт2</field>
+			<title xsi:type="xs:string">Субконто2 (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт3</dataPath>
+			<field>СубконтоДт3</field>
+			<title xsi:type="xs:string">Субконто3 (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт1</dataPath>
+			<field>СубконтоКт1</field>
+			<title xsi:type="xs:string">Субконто1 (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт2</dataPath>
+			<field>СубконтоКт2</field>
+			<title xsi:type="xs:string">Субконто2 (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт3</dataPath>
+			<field>СубконтоКт3</field>
+			<title xsi:type="xs:string">Субконто3 (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаДт</dataPath>
+			<field>ВалютаДт</field>
+			<title xsi:type="xs:string">Валюта (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКт</dataPath>
+			<field>ВалютаКт</field>
+			<title xsi:type="xs:string">Валюта (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеДт</dataPath>
+			<field>ПодразделениеДт</field>
+			<title xsi:type="xs:string">Подрзделение (Дт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеКт</dataPath>
+			<field>ПодразделениеКт</field>
+			<title xsi:type="xs:string">Подразделение (Кт)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборот</dataPath>
+			<field>СуммаОборот</field>
+			<title xsi:type="xs:string">Оборот (Сумма)</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукт</dataPath>
+			<field>Продукт</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ХозрасчетныйОборотыДтКт.Период КАК Период,
+	ХозрасчетныйОборотыДтКт.Регистратор КАК Регистратор,
+	ХозрасчетныйОборотыДтКт.СчетДт КАК СчетДт,
+	ХозрасчетныйОборотыДтКт.СчетКт КАК СчетКт,
+	ХозрасчетныйОборотыДтКт.СубконтоДт1 КАК СубконтоДт1,
+	ХозрасчетныйОборотыДтКт.СубконтоДт2 КАК СубконтоДт2,
+	ХозрасчетныйОборотыДтКт.СубконтоДт3 КАК СубконтоДт3,
+	ХозрасчетныйОборотыДтКт.СубконтоКт1 КАК СубконтоКт1,
+	ХозрасчетныйОборотыДтКт.СубконтоКт2 КАК СубконтоКт2,
+	ХозрасчетныйОборотыДтКт.СубконтоКт3 КАК СубконтоКт3,
+	ХозрасчетныйОборотыДтКт.Организация КАК Организация,
+	ХозрасчетныйОборотыДтКт.ВалютаДт КАК ВалютаДт,
+	ХозрасчетныйОборотыДтКт.ВалютаКт КАК ВалютаКт,
+	ХозрасчетныйОборотыДтКт.ПодразделениеДт КАК ПодразделениеДт,
+	ХозрасчетныйОборотыДтКт.ПодразделениеКт КАК ПодразделениеКт,
+	ХозрасчетныйОборотыДтКт.СуммаОборот КАК СуммаОборот,
+	ХозрасчетныйОборотыДтКт.Регистратор.Продукт КАК Продукт
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОборотыДтКт(&amp;НачалоПериода, &amp;КонецПериода, Регистратор, , , , , ) КАК ХозрасчетныйОборотыДтКт
+ГДЕ
+	(ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.СчетНаОплатуПокупателю)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.РеализацияТоваровУслуг)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.ПриходныйКассовыйОрдер)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.РасходныйКассовыйОрдер)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.ПоступлениеНаРасчетныйСчет)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.СписаниеСРасчетногоСчета)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.ПоступлениеТоваровУслуг)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.СчетНаОплатуПоставщика)
+			ИЛИ ТИПЗНАЧЕНИЯ(ХозрасчетныйОборотыДтКт.Регистратор) = ТИП(Документ.ПоступлениеДопРасходов))
+	И ХозрасчетныйОборотыДтКт.Организация = &amp;Организация</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Окончание периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="xs:string">Организация</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Период</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Продукт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СчетДт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПодразделениеДт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоДт1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоДт2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоДт3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВалютаДт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СчетКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПодразделениеКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоКт1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоКт2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СубконтоКт3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВалютаКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОборот</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>d2e36d94-7ce6-4abe-9a38-a451cf52136c</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="xs:string">Окончание периода</dcsset:userSettingPresentation>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>e6c117d6-8896-4106-9ae1-25e6d4d38da0</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="xs:string">Начало периода</dcsset:userSettingPresentation>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Организация</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>ad5b62f8-9b41-486e-9d90-34c383189d90</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

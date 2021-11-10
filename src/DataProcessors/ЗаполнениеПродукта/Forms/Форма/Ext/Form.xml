@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаПериод" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<InputField name="НачалоПериода" id="26">
+					<DataPath>Объект.НачалоПериода</DataPath>
+					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="КонецПериода" id="29">
+					<DataPath>Объект.КонецПериода</DataPath>
+					<ContextMenu name="КонецПериодаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Организация" id="42">
+			<DataPath>Объект.Организация</DataPath>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="44"/>
+		</InputField>
+		<InputField name="ВидДокумента" id="1">
+			<DataPath>Объект.ВидДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Продукт" id="36">
+			<DataPath>Объект.Продукт</DataPath>
+			<ContextMenu name="ПродуктКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="38"/>
+		</InputField>
+		<Table name="СписокДокументов" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СписокДокументов</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокДокументовКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="СписокДокументовКоманднаяПанель" id="6">
+				<ChildItems>
+					<Button name="СписокДокументовЗаполнить" id="32">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="СписокДокументовЗаполнитьРасширеннаяПодсказка" id="33"/>
+					</Button>
+					<Button name="СписокДокументовОбновить" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Обновить</CommandName>
+						<ExtendedTooltip name="СписокДокументовОбновитьРасширеннаяПодсказка" id="35"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокДокументовРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="СписокДокументовСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>СписокДокументов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокДокументовСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="СписокДокументовСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокДокументовСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>СписокДокументов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокДокументовСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="СписокДокументовСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокДокументовУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>СписокДокументов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокДокументовУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокДокументовУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокДокументовНомерСтроки" id="17">
+					<DataPath>Объект.СписокДокументов.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовНомерСтрокиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="СписокДокументовНомерСтрокиРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<InputField name="СписокДокументовДокумент" id="20">
+					<DataPath>Объект.СписокДокументов.Документ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовДокументКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СписокДокументовДокументРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="СписокДокументовПродукт" id="23">
+					<DataPath>Объект.СписокДокументов.Продукт</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовПродуктКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СписокДокументовПродуктРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<CheckBoxField name="СписокДокументовОбновлен" id="39">
+					<DataPath>Объект.СписокДокументов.Обновлен</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокДокументовОбновленКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="СписокДокументовОбновленРасширеннаяПодсказка" id="41"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗаполнениеПродукта</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="Обновить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+	</Commands>
+</Form>

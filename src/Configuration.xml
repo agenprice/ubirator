@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Интеграция</v8:content>
+					<v8:content>Интеграция "Ubirator"</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.8</Version>
+			<Version>1.0.9</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -65,7 +65,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Справочники</Subsystem>
+			<Subsystem>ОснованаяПодсистема</Subsystem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
@@ -83,8 +83,10 @@
 			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
+			<CommonPicture>ubirator16</CommonPicture>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаПродукт</Role>
+			<Role>ИспользованиеОтчетовОбработокРасширения</Role>
 			<CommonTemplate>ПФ_MXL_ТОРГ12_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_Акт_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СчетЗаказ_Переопределяемый</CommonTemplate>
@@ -99,6 +101,8 @@
 			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Продукт</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>
@@ -114,6 +118,9 @@
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
 			<Enum>СпособыУчетаНДС</Enum>
 			<Enum>ОтражениеВУСН</Enum>
+			<Enum>ВидыДокументов</Enum>
+			<Report>ДвиженияТоваровУслуг</Report>
+			<DataProcessor>ЗаполнениеПродукта</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
