@@ -102,6 +102,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="3beb8f37-5283-40a1-b5f5-27ad4b2f8fb9">
+				<Properties>
+					<Name>ПолучитьОбъектПоСсылке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить объект по ссылке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/ref/*</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="7b4de18f-a808-4d05-9768-44d0b344d337">
+						<Properties>
+							<Name>get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьОбъектПоСсылке</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
