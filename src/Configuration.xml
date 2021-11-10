@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.12</Version>
+			<Version>1.0.13</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -96,6 +96,7 @@
 			<CommonModule>СвязанныеДокументы</CommonModule>
 			<CommonModule>РаботаСоСсылками</CommonModule>
 			<CommonModule>РаботаССервисом</CommonModule>
+			<CommonModule>ОбщегоНазначенияБПВызовСервера</CommonModule>
 			<HTTPService>Интеграция</HTTPService>
 			<Catalog>Организации</Catalog>
 			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>

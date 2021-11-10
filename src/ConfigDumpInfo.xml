@@ -12,6 +12,8 @@
 		<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы" id="f5a2d661-e7d0-41ac-a192-e31a3fee8fda" configVersion="0695570686deda99d3dc8360816902b4d46a83cb">
 			<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы.Attribute.ФайлХранилище" id="6cb44927-205a-4402-8c5e-53367f10eace"/>
 		</Metadata>
+		<Metadata name="CommonModule.ОбщегоНазначенияБПВызовСервера" id="bc5b5abd-b44b-480c-a688-dc2f7ff11f27" configVersion="5631540c5d40e84c73ff789bdfde367be36b79c0"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияБПВызовСервера.Module" id="bc5b5abd-b44b-480c-a688-dc2f7ff11f27.0" configVersion="2e0fe3bc0bfbd883e862a6908d2a3dd2a90a99ce"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументовПереопределяемый" id="04eb38f0-bab2-4879-8551-cb01031eb003" configVersion="109f6c279b13238eab858e145a54a18580ac9897"/>
 		<Metadata name="CommonModule.ПечатьТорговыхДокументовПереопределяемый.Module" id="04eb38f0-bab2-4879-8551-cb01031eb003.0" configVersion="39031fe908a4e7b3b6d4877d8992f40eee850930"/>
 		<Metadata name="CommonModule.РаботаСДокументами" id="397931c3-2f5e-4916-b435-f07854cc7307" configVersion="f36aba26675a55bceae4a14296c4fc91b4deda4b"/>
@@ -36,7 +38,7 @@
 		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый.Template" id="700e8c24-cef2-4c21-ba19-23512c9571e9.0" configVersion="d85a57323d1fe2ed687ee8bf359e03258df05fe4"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый" id="1c6a89a0-3d3f-4e75-8972-717449100ff6" configVersion="9b034a4997884187d4bb3cf3e0cb224e04af2979"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый.Template" id="1c6a89a0-3d3f-4e75-8972-717449100ff6.0" configVersion="546b52c3d5e06e6cd831269174ec3679198c33d2"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="08088d7e4ade4410bb9f3f3c178a8632bcba99be"/>
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="2f7fe01ed71a7769976b816c794dda94dd028e99"/>
 		<Metadata name="DataProcessor.ЗаполнениеПродукта" id="2abfe2d2-af88-4265-be74-b5f0444f1416" configVersion="81bc3dd7fe96ac67500abcd1e76e0214199d5b2e">
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.СуммаДокумента" id="1520e3d6-f75b-45c7-855e-19d5a7f872aa"/>
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.ДатаДокумента" id="16058ede-ba4f-4741-861d-04841d30f837"/>
