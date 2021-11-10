@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.6</Version>
+			<Version>1.0.7</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -65,7 +65,26 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<StyleItem>ЦветФонаПредупреждения</StyleItem>
+			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
+			<StyleItem>ЦветБаннераБежевыйЧекиНПД</StyleItem>
+			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
+			<StyleItem>ЦветБаннераБежевый</StyleItem>
+			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
+			<StyleItem>РамкаСеткиТаблицы</StyleItem>
+			<StyleItem>ИтогиФонГруппы</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>СодержаниеУслугиШрифт</StyleItem>
+			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
+			<StyleItem>ЗаголовкиСтрокШрифт</StyleItem>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
+			<Role>ДобавлениеИзменениеДанныхСправочникаПродукт</Role>
 			<CommonTemplate>ПФ_MXL_ТОРГ12_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_Акт_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СчетЗаказ_Переопределяемый</CommonTemplate>
@@ -79,10 +98,20 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Продукт</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>РасходныйКассовыйОрдер</Document>
+			<Document>ПоступлениеНаРасчетныйСчет</Document>
+			<Document>СписаниеСРасчетногоСчета</Document>
+			<Document>ПоступлениеТоваровУслуг</Document>
 			<Enum>ВидыОперацийРеализацияТоваров</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>ВидыДоговоровКонтрагентов</Enum>
+			<Enum>СпособыУчетаНДС</Enum>
+			<Enum>ОтражениеВУСН</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

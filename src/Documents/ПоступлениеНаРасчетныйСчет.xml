@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Document uuid="c1d8c93e-c85c-4568-ad3c-6559604b7d69">
+	<Document uuid="67ef5850-1bf2-4b15-851a-872d8e413a9f">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.РеализацияТоваровУслуг" category="Object">
-				<xr:TypeId>9d5c8974-7362-4122-bd0d-ffc32193c3bd</xr:TypeId>
-				<xr:ValueId>db5d65f0-876f-449e-a415-29a32e56047d</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеНаРасчетныйСчет" category="Object">
+				<xr:TypeId>f6a57677-7e38-43f9-908f-38f946b0368c</xr:TypeId>
+				<xr:ValueId>9e91fef2-53c0-46e6-bd05-f9acbefa5ac5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.РеализацияТоваровУслуг" category="Ref">
-				<xr:TypeId>8f65588b-0d2a-44ea-9d6c-e0690ca5a04f</xr:TypeId>
-				<xr:ValueId>f09778a6-e6bf-4710-87a9-f805d4993d1f</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеНаРасчетныйСчет" category="Ref">
+				<xr:TypeId>10997281-5983-4f1d-ab32-f85c0f939c1e</xr:TypeId>
+				<xr:ValueId>2e8e9cdf-ba2d-4898-8d1a-c731588cf2ef</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.РеализацияТоваровУслуг" category="Selection">
-				<xr:TypeId>eb080232-bf20-49d5-b299-fe255282d55f</xr:TypeId>
-				<xr:ValueId>b8daa120-f910-4d0d-880c-bcd66c67ef9b</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеНаРасчетныйСчет" category="Selection">
+				<xr:TypeId>cb86fdc0-6077-44cc-ba51-5be48870e594</xr:TypeId>
+				<xr:ValueId>259720b7-504f-4176-b3fd-e7ea3b7d5aa1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.РеализацияТоваровУслуг" category="List">
-				<xr:TypeId>b228e3aa-0841-443a-848a-1d5ab10c1db3</xr:TypeId>
-				<xr:ValueId>6861e975-cd45-4e15-89d6-44d1fe30c041</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ПоступлениеНаРасчетныйСчет" category="List">
+				<xr:TypeId>5f910387-782e-4898-88ec-eb06642167ac</xr:TypeId>
+				<xr:ValueId>f69fe2c3-8e7e-4bb6-9aee-96fbccb2605a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.РеализацияТоваровУслуг" category="Manager">
-				<xr:TypeId>395b2108-6fa4-4c98-8c53-e9d9700af07e</xr:TypeId>
-				<xr:ValueId>52824076-6965-4faf-98ea-dddf500e0b59</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеНаРасчетныйСчет" category="Manager">
+				<xr:TypeId>d4beeec1-3706-4d65-9e64-a728da99c34b</xr:TypeId>
+				<xr:ValueId>513f7434-7a84-4a4e-b658-330bb1987b1c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>РеализацияТоваровУслуг</Name>
+			<Name>ПоступлениеНаРасчетныйСчет</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>4f2c4b13-3dfb-4b87-bc22-07f8e2972770</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject>d2ae4aee-94fe-4d92-976e-b939d3475235</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="23669ae8-ff77-4c0b-9379-55484390df93">
+			<Attribute uuid="f9dc6f02-830c-46fa-a939-a988714a9605">
 				<Properties>
 					<Name>Продукт</Name>
 					<Synonym>
@@ -70,9 +70,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаДокументаТовары</Form>
-			<Form>ФормаДокументаУслуги</Form>
-			<Form>ФормаДокументаОбщая</Form>
+			<Form>ФормаДокументаОднострочная</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
