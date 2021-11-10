@@ -564,16 +564,6 @@
 									<ContextMenu name="ИсторияКППКонтекстноеМеню" id="425"/>
 									<ExtendedTooltip name="ИсторияКППРасширеннаяПодсказка" id="426"/>
 								</LabelDecoration>
-								<Button name="ПоказатьТелефоныКА" id="809">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ПоказатьТелефоныКА</CommandName>
-									<ExtendedTooltip name="ПоказатьТелефоныКАРасширеннаяПодсказка" id="810"/>
-								</Button>
-								<Button name="ПоказатьБанковскиеКартыКА" id="811">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ПоказатьБанковскиеКартыКА</CommandName>
-									<ExtendedTooltip name="ПоказатьБанковскиеКартыКАРасширеннаяПодсказка" id="812"/>
-								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<LabelField name="НадписьПоясненияНекорректногоКПП" id="359">
@@ -985,6 +975,35 @@
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
 			<ExtendedTooltip name="КомментарийExtendedTooltip" id="243"/>
 		</InputField>
+		<UsualGroup name="ТелефоныИКарты" id="813">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Телефоны и карты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Телефоны и карты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ТелефоныИКартыРасширеннаяПодсказка" id="814"/>
+			<ChildItems>
+				<Button name="ПоказатьТелефоныКА" id="809">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ПоказатьТелефоныКА</CommandName>
+					<ExtendedTooltip name="ПоказатьТелефоныКАРасширеннаяПодсказка" id="810"/>
+				</Button>
+				<Button name="ПоказатьБанковскиеКартыКА" id="811">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ПоказатьБанковскиеКартыКА</CommandName>
+					<ExtendedTooltip name="ПоказатьБанковскиеКартыКАРасширеннаяПодсказка" id="812"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаОсновнойБанковскийСчет" id="571">
 			<Title>
 				<v8:item>

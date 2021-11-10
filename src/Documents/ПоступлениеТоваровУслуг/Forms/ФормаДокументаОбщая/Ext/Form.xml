@@ -3418,6 +3418,11 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="563"/>
 					<ChildItems>
+						<InputField name="Продукт" id="1166">
+							<DataPath>Продукт</DataPath>
+							<ContextMenu name="ПродуктКонтекстноеМеню" id="1167"/>
+							<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="1168"/>
+						</InputField>
 						<InputField name="Комментарий" id="564">
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
