@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.16</Version>
+			<Version>1.0.17</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -103,7 +103,12 @@
 			<CommonModule>РаботаСоСсылками</CommonModule>
 			<CommonModule>РаботаССервисом</CommonModule>
 			<CommonModule>ОбщегоНазначенияБПВызовСервера</CommonModule>
+			<CommonModule>ПодпискиНаСобытия</CommonModule>
 			<HTTPService>Интеграция</HTTPService>
+			<EventSubscription>ЗаписьНомеровТелефонов</EventSubscription>
+			<EventSubscription>ЗаписьНомеровКарт</EventSubscription>
+			<DefinedType>КонтрагентБИП</DefinedType>
+			<DefinedType>КонтрагентБЭД</DefinedType>
 			<Catalog>Организации</Catalog>
 			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>
 			<Catalog>Склады</Catalog>
@@ -131,9 +136,16 @@
 			<Enum>СпособыУчетаНДС</Enum>
 			<Enum>ОтражениеВУСН</Enum>
 			<Enum>ВидыДокументов</Enum>
+			<Enum>СостоянияКонтрагентаБЭД</Enum>
+			<Enum>СостоянияСуществованияКонтрагента</Enum>
 			<Report>ДвиженияТоваровУслуг</Report>
 			<DataProcessor>ЗаполнениеПродукта</DataProcessor>
 			<DataProcessor>РегистрацияОбъектовOData</DataProcessor>
+			<InformationRegister>НомераТелефоновСводно</InformationRegister>
+			<InformationRegister>НомераКартСводно</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
+			<InformationRegister>НаличиеДублейУКонтрагентов</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

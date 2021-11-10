@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<InformationRegister uuid="b7b4ad7b-7199-4240-9195-52d242c4ba0c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияКонтрагентовБЭД" category="Record">
+				<xr:TypeId>a1ae24f0-98b6-4ac7-9d18-046a0818155d</xr:TypeId>
+				<xr:ValueId>bf5fa926-6509-4473-972d-0e4e28b5ba63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияКонтрагентовБЭД" category="Manager">
+				<xr:TypeId>05e07fbc-d0d1-4a76-9883-ab303107501a</xr:TypeId>
+				<xr:ValueId>c14303ce-506b-48e0-9877-7a1bf4dfabd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияКонтрагентовБЭД" category="Selection">
+				<xr:TypeId>ebabb361-bf39-4b44-9131-f158f2e203cb</xr:TypeId>
+				<xr:ValueId>c8d618c1-ead0-428a-96a2-5e49c8c5501d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияКонтрагентовБЭД" category="List">
+				<xr:TypeId>79d7fa58-721f-4dcd-a0cc-465386f21f2c</xr:TypeId>
+				<xr:ValueId>bb81bea2-b2d1-422a-a7bd-dff6e67e47ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияКонтрагентовБЭД" category="RecordSet">
+				<xr:TypeId>43f74436-eeb7-4aaf-92e7-c069b7cae0f2</xr:TypeId>
+				<xr:ValueId>01d9ce02-a607-4842-8d6c-dac068abf173</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияКонтрагентовБЭД" category="RecordKey">
+				<xr:TypeId>7b6edb88-6d48-4bb6-9d7a-f9b0f2d96a87</xr:TypeId>
+				<xr:ValueId>f8d4635b-bf35-4c8e-baf2-2bbb64493239</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияКонтрагентовБЭД" category="RecordManager">
+				<xr:TypeId>7707b866-a967-4658-9c31-2d35f19ea355</xr:TypeId>
+				<xr:ValueId>75bd019f-5d80-490d-8474-8c2fe1ff4621</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтрагентовБЭД</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>00035364-b591-4e6a-9219-e27dac18f687</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="89118c45-44bb-4f9c-be5d-8712d8e3fb6f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ab045183-0432-4b6d-ba3b-5b842be80f8b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияКонтрагентаБЭД</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f32969ba-0fce-488d-9cb7-9e7117691e26">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>564ecc62-38ae-4817-b37c-156b731ea5ec</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КонтрагентБЭД</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

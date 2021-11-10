@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<InformationRegister uuid="2202403e-f008-4bbc-879a-d9d2744d924b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НаличиеДублейУКонтрагентов" category="Record">
+				<xr:TypeId>338d9b4f-987d-469e-9b94-469f8abdf0f2</xr:TypeId>
+				<xr:ValueId>0ffc9cbe-3249-4c0c-82a6-89b17e6c5a77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НаличиеДублейУКонтрагентов" category="Manager">
+				<xr:TypeId>cf06bd2c-8706-45a1-9d51-a68d62f3dcd0</xr:TypeId>
+				<xr:ValueId>7206aa3d-21f2-4f25-850a-f50fea2beb8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НаличиеДублейУКонтрагентов" category="Selection">
+				<xr:TypeId>13b44252-6225-4053-aec2-7d0364771bf2</xr:TypeId>
+				<xr:ValueId>6ee26d16-fa14-479a-a700-a3b140ac2931</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НаличиеДублейУКонтрагентов" category="List">
+				<xr:TypeId>995faeb8-390f-44cd-8389-80141e244fdd</xr:TypeId>
+				<xr:ValueId>53ee0a1b-f3ec-4b24-9efd-3864e58438f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НаличиеДублейУКонтрагентов" category="RecordSet">
+				<xr:TypeId>5aecac7b-423a-4848-875c-b462173a5d22</xr:TypeId>
+				<xr:ValueId>9bc8bb2f-841a-4bee-b34c-e53ca697e325</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НаличиеДублейУКонтрагентов" category="RecordKey">
+				<xr:TypeId>a2538ef8-b624-4379-a73b-b972c288e072</xr:TypeId>
+				<xr:ValueId>44b5a402-4829-42ea-86a9-6a943980c8f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НаличиеДублейУКонтрагентов" category="RecordManager">
+				<xr:TypeId>83ea8186-a2f5-440b-b58b-1bf0049c6bbc</xr:TypeId>
+				<xr:ValueId>39a2d6a1-1e6b-4064-a9f1-0b62406c0621</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаличиеДублейУКонтрагентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ec880322-d36d-4ef9-a9c5-cab99a4d6456</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="851a8bb7-2dad-4feb-b29b-1407e75a6cc0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИНН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a8790acc-6dbe-4f8e-9bff-316cc6b06de7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="07f07a87-2983-453a-a525-f648926fd770">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>48723847-6bcb-4cbd-b347-f58088c6799e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d116fe57-e36d-460c-aa3f-92a2c97e28cd">
+				<InternalInfo/>
+				<Properties>
+					<Name>КПП</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c4248299-9fd6-415c-a0cb-bf7f95dc9fdf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
