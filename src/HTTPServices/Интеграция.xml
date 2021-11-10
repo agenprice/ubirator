@@ -73,6 +73,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="100603d0-d490-47ea-8111-d3de84d30946">
+				<Properties>
+					<Name>ПолучитьСвязанныеДокументы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить связанные документы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/doc/*</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="89c4df57-e1bc-4751-a002-6ba54c86f5ea">
+						<Properties>
+							<Name>get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьСписокСвязанныхДокументов</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
