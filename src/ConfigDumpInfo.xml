@@ -3,19 +3,20 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Организации" id="fe9d6ff4-0d67-420c-a87a-964df7e3b9ca" configVersion="d06065d0a17bf5068eae603941f8d5b24eb11b82"/>
 		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль" id="397931c3-2f5e-4916-b435-f07854cc7307" configVersion="9990cf0ed0db42619be4adcd02dfe96e3922f59b"/>
-		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль.Module" id="397931c3-2f5e-4916-b435-f07854cc7307.0" configVersion="569ba71bd8f12cd8263ff16e941435523a2286f3"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="919c5adf056b9afb11fd8be2a14b819eabd71396"/>
+		<Metadata name="CommonModule.ИнтеграцияОбщийМодуль.Module" id="397931c3-2f5e-4916-b435-f07854cc7307.0" configVersion="863a6c422abb76736657e1c17e0b845a3d0ada34"/>
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="f8df60d325225df8c5019de425268098ea474227"/>
 		<Metadata name="Document.РеализацияТоваровУслуг" id="c1d8c93e-c85c-4568-ad3c-6559604b7d69" configVersion="87cce3852452262a8df4ff678a773f2519191aa5"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю" id="0897e15f-2008-4743-a1be-26719b24b667" configVersion="8a6c6e47580be9e61ee452865df91823f11a3a71">
 			<Metadata name="Document.СчетНаОплатуПокупателю.Attribute.Организация" id="3ad4c3fa-6765-490c-88fe-5f23ab187cd1"/>
 		</Metadata>
+		<Metadata name="Document.СчетФактураВыданный" id="1dfdb817-e8d3-4bea-86a4-8b914d6aab53" configVersion="7512dd2d692637af1ef53612d9e77b5f73df814c"/>
 		<Metadata name="HTTPService.Интеграция" id="2e5b09d1-5e03-4c23-b762-8c4a2486628f" configVersion="2a05932c8d8f3970b86e0180cc56d4bb56dd82bb">
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьВерсиюРасширения" id="5cdf3a0b-d254-4441-95b7-b34fd8fef50a"/>
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьВерсиюРасширения.Method.get" id="98ee1296-91f0-4c74-8e32-1ec22a869c84"/>
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьПечатнуюФормуДокумента" id="a3deb206-5903-4bf8-ba53-323949a740b5"/>
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьПечатнуюФормуДокумента.Method.get" id="cebdc29a-0797-4bd3-8a11-888861f4a199"/>
 		</Metadata>
-		<Metadata name="HTTPService.Интеграция.Module" id="2e5b09d1-5e03-4c23-b762-8c4a2486628f.0" configVersion="ef578ed7b74b31eee328d4a329c9017c1810145d"/>
+		<Metadata name="HTTPService.Интеграция.Module" id="2e5b09d1-5e03-4c23-b762-8c4a2486628f.0" configVersion="63b9f07271790997769e0a7338861c07396f858e"/>
 		<Metadata name="Language.Русский" id="2c4fb662-4408-4008-a9cb-33aaa31c6ebc" configVersion="a81619752bfc05e992b16e298d96923630ce4a88"/>
 		<Metadata name="Role.ИнтеграцияОсновнаяРоль" id="7b52ee16-b8d0-47d0-b3c5-399b28e7a804" configVersion="cf9bfe9458ac31c7c6248f64bc1104585bee007d"/>
 	</ConfigVersions>
