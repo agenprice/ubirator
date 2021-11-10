@@ -14,11 +14,11 @@
 		<Metadata name="CommonModule.РаботаСДокументами" id="397931c3-2f5e-4916-b435-f07854cc7307" configVersion="f36aba26675a55bceae4a14296c4fc91b4deda4b"/>
 		<Metadata name="CommonModule.РаботаСДокументами.Module" id="397931c3-2f5e-4916-b435-f07854cc7307.0" configVersion="0b23cabb1aa37c15cfc2a616927f2ec6297ee633"/>
 		<Metadata name="CommonModule.РаботаССервисом" id="3a7a3526-78fa-4d3a-a6ad-424ef11a1aa9" configVersion="8763f76eb0a15fdeb9170689b440a378a65323b6"/>
-		<Metadata name="CommonModule.РаботаССервисом.Module" id="3a7a3526-78fa-4d3a-a6ad-424ef11a1aa9.0" configVersion="cacbb2c8c38186ff1a7843169cf74de569544508"/>
+		<Metadata name="CommonModule.РаботаССервисом.Module" id="3a7a3526-78fa-4d3a-a6ad-424ef11a1aa9.0" configVersion="467f266a5d7468eebba4518d93a07311e55e63ab"/>
 		<Metadata name="CommonModule.РаботаСоСсылками" id="bd886fea-2a4b-4c2d-8631-9a8d91782bdc" configVersion="a9fc99e3ed86802fd33a2950cc9e6b292b02d062"/>
 		<Metadata name="CommonModule.РаботаСоСсылками.Module" id="bd886fea-2a4b-4c2d-8631-9a8d91782bdc.0" configVersion="1ebe2913b8e9cc9695ee3f2e1331d4722e8dfecc"/>
 		<Metadata name="CommonModule.СвязанныеДокументы" id="1b2c927f-e4e8-4fc1-914d-455023c64796" configVersion="30d9083fa259b125b0d1031b06827af4b6aeaa7d"/>
-		<Metadata name="CommonModule.СвязанныеДокументы.Module" id="1b2c927f-e4e8-4fc1-914d-455023c64796.0" configVersion="ed0c58e516db3d2d8ac1d154de53efe64e496f47"/>
+		<Metadata name="CommonModule.СвязанныеДокументы.Module" id="1b2c927f-e4e8-4fc1-914d-455023c64796.0" configVersion="6dc9d59a6870cb6761b274b2c16d9497d588a7f6"/>
 		<Metadata name="CommonPicture.ubirator16" id="e1cd2bf5-f6da-4700-8d10-fd663f7eb634" configVersion="46fd131f3929b3cc1ebccdbc149ae923a1f42980"/>
 		<Metadata name="CommonPicture.ubirator16.Picture" id="e1cd2bf5-f6da-4700-8d10-fd663f7eb634.0" configVersion="131fb36e8f8fd60ae79d51a460b0e13b4d55f287"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="35c7bd83-f529-47e2-b285-723acd773007" configVersion="69f19b2e7037a9e1d289774a83bc1e0626a24c17"/>
@@ -33,7 +33,7 @@
 		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый.Template" id="700e8c24-cef2-4c21-ba19-23512c9571e9.0" configVersion="d85a57323d1fe2ed687ee8bf359e03258df05fe4"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый" id="1c6a89a0-3d3f-4e75-8972-717449100ff6" configVersion="9b034a4997884187d4bb3cf3e0cb224e04af2979"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый.Template" id="1c6a89a0-3d3f-4e75-8972-717449100ff6.0" configVersion="546b52c3d5e06e6cd831269174ec3679198c33d2"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="b9ebd69dfc85731d271641bc263339af496c9d2e"/>
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="33337b79878fcc239c8a418369e11af0979bb241"/>
 		<Metadata name="DataProcessor.ЗаполнениеПродукта" id="2abfe2d2-af88-4265-be74-b5f0444f1416" configVersion="9184dd2e6fb03db3207397583363b12ed985320e">
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов" id="1b2772fe-d2ed-41b6-be81-9ce0c84c2456"/>
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.Attribute.НачалоПериода" id="31294d59-24af-438e-a27f-313cb0cbcc0b"/>
@@ -149,7 +149,7 @@
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьСвязанныеДокументы.Method.post" id="bb18c2e0-9897-4b33-8473-eb4e3d5695db"/>
 			<Metadata name="HTTPService.Интеграция.URLTemplate.ПолучитьПечатнуюФормуДокумента.Method.get" id="cebdc29a-0797-4bd3-8a11-888861f4a199"/>
 		</Metadata>
-		<Metadata name="HTTPService.Интеграция.Module" id="2e5b09d1-5e03-4c23-b762-8c4a2486628f.0" configVersion="d8cf4c4ca57553f74f9ceb7bc9e6daa321a51e13"/>
+		<Metadata name="HTTPService.Интеграция.Module" id="2e5b09d1-5e03-4c23-b762-8c4a2486628f.0" configVersion="2e00b0b5d229d534ea7cd438384df4c30b78aa56"/>
 		<Metadata name="Language.Русский" id="2c4fb662-4408-4008-a9cb-33aaa31c6ebc" configVersion="a81619752bfc05e992b16e298d96923630ce4a88"/>
 		<Metadata name="Report.ДвиженияТоваровУслуг" id="60549101-dea2-49de-ba74-6637d751b74a" configVersion="3886bcc791f0178fc7a85b49dc78806aae309104"/>
 		<Metadata name="Report.ДвиженияТоваровУслуг.Template.ОсновнаяСхемаКомпоновкиДанных" id="88efcc75-47c2-4cc7-8ec2-bbc09c90dab3" configVersion="b5c8333c086291af2c2171ef014df5ef345071c1"/>
