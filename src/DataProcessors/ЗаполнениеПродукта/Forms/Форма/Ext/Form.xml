@@ -37,6 +37,21 @@
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="43"/>
 			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="44"/>
 		</InputField>
+		<InputField name="Подразделение" id="47">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="49"/>
+		</InputField>
+		<InputField name="Договор" id="50">
+			<DataPath>Объект.Договор</DataPath>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="52"/>
+		</InputField>
+		<InputField name="Комментарий" id="53">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="55"/>
+		</InputField>
 		<InputField name="ВидДокумента" id="1">
 			<DataPath>Объект.ВидДокумента</DataPath>
 			<EditMode>EnterOnInput</EditMode>
