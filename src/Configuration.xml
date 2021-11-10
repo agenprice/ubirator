@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.15.1</Version>
+			<Version>1.0.16</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -133,6 +133,7 @@
 			<Enum>ВидыДокументов</Enum>
 			<Report>ДвиженияТоваровУслуг</Report>
 			<DataProcessor>ЗаполнениеПродукта</DataProcessor>
+			<DataProcessor>РегистрацияОбъектовOData</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

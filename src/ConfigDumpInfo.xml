@@ -53,7 +53,7 @@
 		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый.Template" id="700e8c24-cef2-4c21-ba19-23512c9571e9.0" configVersion="d85a57323d1fe2ed687ee8bf359e03258df05fe4"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый" id="1c6a89a0-3d3f-4e75-8972-717449100ff6" configVersion="9b034a4997884187d4bb3cf3e0cb224e04af2979"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый.Template" id="1c6a89a0-3d3f-4e75-8972-717449100ff6.0" configVersion="546b52c3d5e06e6cd831269174ec3679198c33d2"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="215ecf507c0ddaafe2846f402cd33db6aea512c8"/>
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="fbfc550ee0a8abb6455efd12da63d42a77c2f086"/>
 		<Metadata name="DataProcessor.ЗаполнениеПродукта" id="2abfe2d2-af88-4265-be74-b5f0444f1416" configVersion="7d993b5ff97fd1964b2c80c4f857a2c325f58072">
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.СуммаДокумента" id="1520e3d6-f75b-45c7-855e-19d5a7f872aa"/>
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.ДатаДокумента" id="16058ede-ba4f-4741-861d-04841d30f837"/>
@@ -75,6 +75,9 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ЗаполнениеПродукта.Form.Форма" id="0b8c6340-ea92-4291-997d-c07b7bf495fc" configVersion="72f9f298ccb283c59c8e278e8cd0ffbe848351c6"/>
 		<Metadata name="DataProcessor.ЗаполнениеПродукта.Form.Форма.Form" id="0b8c6340-ea92-4291-997d-c07b7bf495fc.0" configVersion="ffded352b3e89acf21cb1b87e036398529269aef"/>
+		<Metadata name="DataProcessor.РегистрацияОбъектовOData" id="7dcd121b-0e5d-4363-b9ca-78b2d323d535" configVersion="07e5c6bda01034dfafd946df38707996b89b4673"/>
+		<Metadata name="DataProcessor.РегистрацияОбъектовOData.Form.Форма" id="bf02af15-f4da-4b5c-83ce-4aeb567319bb" configVersion="7dd870ebd443f13d578ea4f43f097e2e567bcdc6"/>
+		<Metadata name="DataProcessor.РегистрацияОбъектовOData.Form.Форма.Form" id="bf02af15-f4da-4b5c-83ce-4aeb567319bb.0" configVersion="7ca4a6a805c44ded001566f332590dfc869f0f56"/>
 		<Metadata name="Document.ПоступлениеДопРасходов" id="53deedff-7985-4017-b4c3-df14851f63a9" configVersion="42899721c1835167f8ec221afb63b65bbdc5a965">
 			<Metadata name="Document.ПоступлениеДопРасходов.Attribute.Продукт" id="bcf86c7f-8142-48e8-8999-ff7a5466da58"/>
 		</Metadata>
@@ -205,7 +208,7 @@
 		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагентаВДокументе" id="09de72e5-f480-4e4e-a3c8-7c9efa53563a" configVersion="b658b46bead6daca0bce0b974f657c147d4dcd5e"/>
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="640ad2f5-9fdc-4f4f-8a79-46274d902fe5" configVersion="bae601ebe6ba3bac0b7f701714a933c98d8bc735"/>
 		<Metadata name="Subsystem.ОснованаяПодсистема" id="76a8103c-cc90-47f7-9426-91a4a728fcc0" configVersion="526cb45173e87c0c0bc3839c0c24087cb8abb7c2"/>
-		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.ОтчетыИОбработки" id="d97fb8aa-ab4d-415c-965e-834ab47205dc" configVersion="f37aec1ff3ffc29713cf0005005e6b830c6b7ea6"/>
+		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.ОтчетыИОбработки" id="d97fb8aa-ab4d-415c-965e-834ab47205dc" configVersion="34a68f303a22a82f439ff66b49a8f28a87405b26"/>
 		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.Справочники" id="aaa2e697-ac10-4c88-8d25-7ff8a823a3c6" configVersion="54ada3130c3eff058f04eb0ed97d59d0fcdb3c78"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
