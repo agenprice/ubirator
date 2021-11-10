@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.11</Version>
+			<Version>1.0.12</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -103,6 +103,9 @@
 			<Catalog>Продукт</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>

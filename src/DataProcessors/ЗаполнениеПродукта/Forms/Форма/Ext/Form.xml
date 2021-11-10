@@ -117,11 +117,41 @@
 					<ContextMenu name="СписокДокументовНомерСтрокиКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="СписокДокументовНомерСтрокиРасширеннаяПодсказка" id="19"/>
 				</LabelField>
+				<InputField name="СписокДокументовДатаДокуиента" id="68">
+					<DataPath>Объект.СписокДокументов.ДатаДокумента</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовДатаДокуиентаКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="СписокДокументовДатаДокуиентаРасширеннаяПодсказка" id="70"/>
+				</InputField>
 				<InputField name="СписокДокументовДокумент" id="20">
 					<DataPath>Объект.СписокДокументов.Документ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокДокументовДокументКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="СписокДокументовДокументРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="СписокДокументовПодразделение" id="56">
+					<DataPath>Объект.СписокДокументов.Подразделение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовПодразделениеКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="СписокДокументовПодразделениеРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="СписокДокументовКонтрагент" id="59">
+					<DataPath>Объект.СписокДокументов.Контрагент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовКонтрагентКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="СписокДокументовКонтрагентРасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="СписокДокументовДоговор" id="62">
+					<DataPath>Объект.СписокДокументов.Договор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовДоговорКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="СписокДокументовДоговорРасширеннаяПодсказка" id="64"/>
 				</InputField>
 				<InputField name="СписокДокументовПродукт" id="23">
 					<DataPath>Объект.СписокДокументов.Продукт</DataPath>
@@ -129,6 +159,12 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокДокументовПродуктКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="СписокДокументовПродуктРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="СписокДокументовСуммаДокумента" id="65">
+					<DataPath>Объект.СписокДокументов.СуммаДокумента</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовСуммаДокументаКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="СписокДокументовСуммаДокументаРасширеннаяПодсказка" id="67"/>
 				</InputField>
 				<CheckBoxField name="СписокДокументовОбновлен" id="39">
 					<DataPath>Объект.СписокДокументов.Обновлен</DataPath>
