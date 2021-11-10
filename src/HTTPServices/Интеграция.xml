@@ -100,6 +100,20 @@
 							<Handler>ПолучитьСписокСвязанныхДокументов</Handler>
 						</Properties>
 					</Method>
+					<Method uuid="bb18c2e0-9897-4b33-8473-eb4e3d5695db">
+						<Properties>
+							<Name>post</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>post</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>СоздатьПодчиненныйДокумент</Handler>
+						</Properties>
+					</Method>
 				</ChildObjects>
 			</URLTemplate>
 			<URLTemplate uuid="3beb8f37-5283-40a1-b5f5-27ad4b2f8fb9">

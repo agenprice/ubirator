@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.5</Version>
+			<Version>1.0.6</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -74,12 +74,15 @@
 			<CommonModule>ПечатьТорговыхДокументовПереопределяемый</CommonModule>
 			<CommonModule>СвязанныеДокументы</CommonModule>
 			<CommonModule>РаботаСоСсылками</CommonModule>
+			<CommonModule>РаботаССервисом</CommonModule>
 			<HTTPService>Интеграция</HTTPService>
 			<Catalog>Организации</Catalog>
 			<Catalog>ФизическиеЛицаПрисоединенныеФайлы</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>
+			<Enum>ВидыОперацийРеализацияТоваров</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
