@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Catalog uuid="a3615f22-56f9-4ff0-a272-740f7ef16378">
+	<Catalog uuid="183ad83a-fc7d-4b45-b028-488b700954a0">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>b5d18d25-dda6-472b-aff3-fcef360a0ca0</xr:TypeId>
-				<xr:ValueId>dab870a1-3f2f-45f2-a2f6-3e6478a94217</xr:ValueId>
+				<xr:TypeId>4cd75f63-53f5-4d5b-911d-efcaf727071f</xr:TypeId>
+				<xr:ValueId>4f2615ab-dff4-495e-a4c9-597e2bfc3857</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>b0309278-359d-429d-81c5-0941a43558df</xr:TypeId>
-				<xr:ValueId>7cb961bd-f85b-42e1-a1b9-1baeaa12e583</xr:ValueId>
+				<xr:TypeId>485a8cc1-7396-4512-8f17-d0b49f9188e2</xr:TypeId>
+				<xr:ValueId>4e037a75-34f4-4b6d-81d8-751ab3282eac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>b2f147d0-75ea-4b50-ba15-57b049be5b3f</xr:TypeId>
-				<xr:ValueId>2d2edadd-23ea-4bd2-964b-a9c7cfb47063</xr:ValueId>
+				<xr:TypeId>b7de1226-86b8-4a30-a048-ea0267afd2f9</xr:TypeId>
+				<xr:ValueId>119d0fd5-25a4-48ee-9160-f9ef47b80f5c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>31e2898c-5885-47ff-a45e-f2c625f37103</xr:TypeId>
-				<xr:ValueId>d50b436b-ced2-4188-a1bd-0894c7a15514</xr:ValueId>
+				<xr:TypeId>cbf2f2a8-5be6-4596-8821-c2d665a50ac7</xr:TypeId>
+				<xr:ValueId>9d2ac9aa-b22e-472c-bf8a-e03e788ebfc2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>d396c140-40a3-4c33-864f-67d3cec7fc36</xr:TypeId>
-				<xr:ValueId>d6e548b9-c794-4949-ad90-72544856cf4f</xr:ValueId>
+				<xr:TypeId>d8ce04ef-16ac-4a9e-bf37-04747e57cfbc</xr:TypeId>
+				<xr:ValueId>f241f2ed-a1e3-4dba-8bcc-ac8b737e0c2d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -28,16 +28,15 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>51b9a2d4-bd53-4f40-824e-e3b4e323279e</ExtendedConfigurationObject>
-			<DefaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</DefaultObjectForm>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="e4ab4a7f-62fa-42a7-8027-550c955c6fb2">
+			<Attribute uuid="2c9489d7-abcd-408b-982d-6cdd0daec589">
 				<Properties>
-					<Name>ТелефонныеНомераСтрокой</Name>
+					<Name>ТелефоныКонтрагентаСтрокой</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Телефонные номера</v8:content>
+							<v8:content>Телефоны контрагента</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -75,13 +74,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="fa7d794d-e57a-4ac8-9d29-1cec8a8ba10c">
+			<Attribute uuid="f489de1b-c76c-4070-a625-33f765562dac">
 				<Properties>
-					<Name>БанковскиеКартыСтрокой</Name>
+					<Name>БанковскиеКартыКонтрагентаСтрокой</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Банковские карты</v8:content>
+							<v8:content>Банковские карты контрагента</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -119,145 +118,6 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="d0b3f9c3-a646-48bd-9502-5fb50cb5ce72">
-				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Контрагенты.ТелефонныеНомераКонтрагентов" category="TabularSection">
-						<xr:TypeId>685f21d9-9b68-4dd4-bd3a-638f3a8c12e4</xr:TypeId>
-						<xr:ValueId>0d127afc-8b26-4dd6-be54-c7666446aa40</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Контрагенты.ТелефонныеНомераКонтрагентов" category="TabularSectionRow">
-						<xr:TypeId>6e854084-ab46-4240-b64d-de82f009ad0d</xr:TypeId>
-						<xr:ValueId>dff65fa0-9659-412a-aab9-ac3e19254226</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
-				<Properties>
-					<Name>ТелефонныеНомераКонтрагентов</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Телефонные номера контрагентов</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<ToolTip/>
-					<FillChecking>DontCheck</FillChecking>
-					<Use>ForItem</Use>
-				</Properties>
-				<ChildObjects>
-					<Attribute uuid="761de0a4-5920-4b9b-8f06-b4a013de57bf">
-						<Properties>
-							<Name>НомерТелефона</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Номер телефона</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>11</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-				</ChildObjects>
-			</TabularSection>
-			<TabularSection uuid="d95c113a-32ab-4080-9a1e-9b720c65674d">
-				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Контрагенты.БанковскиеКартыКонтрагентов" category="TabularSection">
-						<xr:TypeId>ef6400e2-47c6-4b73-8ca5-895a1391d2d2</xr:TypeId>
-						<xr:ValueId>55982d76-522c-44c2-9222-cf5752bca545</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Контрагенты.БанковскиеКартыКонтрагентов" category="TabularSectionRow">
-						<xr:TypeId>21957680-6f87-4390-b3b7-c7baeaa68297</xr:TypeId>
-						<xr:ValueId>1940bccc-227f-4e39-a15e-a60de61459f2</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
-				<Properties>
-					<Name>БанковскиеКартыКонтрагентов</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Банковские карты контрагентов</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<ToolTip/>
-					<FillChecking>DontCheck</FillChecking>
-					<Use>ForItem</Use>
-				</Properties>
-				<ChildObjects>
-					<Attribute uuid="31356b68-2687-467e-821e-9dbcb8588153">
-						<Properties>
-							<Name>НомерКарты</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Номер карты</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>18</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-				</ChildObjects>
-			</TabularSection>
-			<Form>ФормаЭлемента</Form>
-			<Form>ФормаТелефоныКонтрагента</Form>
-			<Form>ФормаБанковскиеКартыКонтрагента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

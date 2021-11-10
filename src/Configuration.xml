@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.15</Version>
+			<Version>1.0.15.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -87,9 +87,12 @@
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
 			<CommonPicture>ubirator16</CommonPicture>
+			<CommonPicture>КоллекцияНастройкиОтправкиЭДО</CommonPicture>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаПродукт</Role>
 			<Role>ИспользованиеОтчетовОбработокРасширения</Role>
+			<Role>ДобавлениеИзменениеДанныхСправочникаТелефоныКонтрагента</Role>
+			<Role>ДобавлениеИзменениеДанныхСправочникаБанковскиеКартыКонтрагента</Role>
 			<CommonTemplate>ПФ_MXL_ТОРГ12_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_Акт_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СчетЗаказ_Переопределяемый</CommonTemplate>
@@ -107,9 +110,11 @@
 			<Catalog>Продукт</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
-			<Catalog>Контрагенты</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ТелефоныКонтрагента</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>БанковскиеКартыКонтрагента</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
+		<Metadata name="Catalog.БанковскиеКартыКонтрагента" id="5777b7e2-c767-40af-9ea2-e87bf9fa1c0e" configVersion="b8c4c6e2d035af70a8b65c38b8a8ce232d577cf5"/>
+		<Metadata name="Catalog.БанковскиеКартыКонтрагента.Form.ФормаСписка" id="5ee4a8c3-3d4f-41f8-a467-1a611d2296a8" configVersion="88d1de8eaf3f5d33bf1f8a44f2286e554a7cd35a"/>
+		<Metadata name="Catalog.БанковскиеКартыКонтрагента.Form.ФормаСписка.Form" id="5ee4a8c3-3d4f-41f8-a467-1a611d2296a8.0" configVersion="66951f1a54ab19aace7cc3c2d9e75b6fbb9d4eec"/>
+		<Metadata name="Catalog.БанковскиеКартыКонтрагента.Form.ФормаЭлемента" id="afdf92fa-cda9-4d0a-88e6-f8a72e285468" configVersion="9361615dffe440051083bee588d8dbdd7b444956"/>
+		<Metadata name="Catalog.БанковскиеКартыКонтрагента.Form.ФормаЭлемента.Form" id="afdf92fa-cda9-4d0a-88e6-f8a72e285468.0" configVersion="0242f4731ddbef9e4f7aef442c3e80f5168e0cc1"/>
 		<Metadata name="Catalog.Валюты" id="fe95ba1c-654a-41b6-b545-762709edc5e4" configVersion="0e6ee704ee9b90544694856e2e866c517a9255a3"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов" id="459971e8-1979-4a1e-ab9b-1d717ffb6191" configVersion="bab8c0651e24306b4689132063a942f9c67c3451"/>
-		<Metadata name="Catalog.Контрагенты" id="a3615f22-56f9-4ff0-a272-740f7ef16378" configVersion="02cc2229c05038767e8d9ae7f4a06de93f327660">
-			<Metadata name="Catalog.Контрагенты.TabularSection.БанковскиеКартыКонтрагентов.Attribute.НомерКарты" id="31356b68-2687-467e-821e-9dbcb8588153"/>
-			<Metadata name="Catalog.Контрагенты.TabularSection.ТелефонныеНомераКонтрагентов.Attribute.НомерТелефона" id="761de0a4-5920-4b9b-8f06-b4a013de57bf"/>
-			<Metadata name="Catalog.Контрагенты.TabularSection.ТелефонныеНомераКонтрагентов" id="d0b3f9c3-a646-48bd-9502-5fb50cb5ce72"/>
-			<Metadata name="Catalog.Контрагенты.TabularSection.БанковскиеКартыКонтрагентов" id="d95c113a-32ab-4080-9a1e-9b720c65674d"/>
-			<Metadata name="Catalog.Контрагенты.Attribute.ТелефонныеНомераСтрокой" id="e4ab4a7f-62fa-42a7-8027-550c955c6fb2"/>
-			<Metadata name="Catalog.Контрагенты.Attribute.БанковскиеКартыСтрокой" id="fa7d794d-e57a-4ac8-9d29-1cec8a8ba10c"/>
+		<Metadata name="Catalog.Контрагенты" id="183ad83a-fc7d-4b45-b028-488b700954a0" configVersion="8dd9e26afbf2e5d9f608bdc5f53a5d4b45ae42a6">
+			<Metadata name="Catalog.Контрагенты.Attribute.ТелефоныКонтрагентаСтрокой" id="2c9489d7-abcd-408b-982d-6cdd0daec589"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.БанковскиеКартыКонтрагентаСтрокой" id="f489de1b-c76c-4070-a625-33f765562dac"/>
 		</Metadata>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаБанковскиеКартыКонтрагента" id="e8390456-0b93-4d43-be58-53e3a1d8a75f" configVersion="093f7d3da78a49dc0097dbb285a9939922694507"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаБанковскиеКартыКонтрагента.Form" id="e8390456-0b93-4d43-be58-53e3a1d8a75f.0" configVersion="cbeda1a050d9c668889a72969649a3b8bb110507"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаТелефоныКонтрагента" id="e5791847-4d11-4534-b37d-e51568cafd9a" configVersion="823dfdc47bff613e4459679d248cf310acd3cef0"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаТелефоныКонтрагента.Form" id="e5791847-4d11-4534-b37d-e51568cafd9a.0" configVersion="c6c19c93b385a3cc597dcf40810bb4cb5a5f653a"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="f684a215-7278-4b05-a79a-d87841b28aa7" configVersion="37924d7b7e6b74446cd395b40c292dbf484f7083"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="f684a215-7278-4b05-a79a-d87841b28aa7.0" configVersion="1118a417fd8b88e22eac384acf5fc00d99189104"/>
-		<Metadata name="Catalog.Контрагенты.ObjectModule" id="a3615f22-56f9-4ff0-a272-740f7ef16378.0" configVersion="256da750e3c81713db4b9c4fb26a5db80f1ac4c5"/>
+		<Metadata name="Catalog.Контрагенты.ObjectModule" id="183ad83a-fc7d-4b45-b028-488b700954a0.0" configVersion="f099080927aa72778b41cab97dd6c2ca83a92fc1"/>
 		<Metadata name="Catalog.Организации" id="fe9d6ff4-0d67-420c-a87a-964df7e3b9ca" configVersion="d06065d0a17bf5068eae603941f8d5b24eb11b82"/>
 		<Metadata name="Catalog.ПодразделенияОрганизаций" id="131baea7-135b-4aaa-b86b-1bef2c022595" configVersion="52061f7d01d0cc420bc436c2a6206436c8fe5650"/>
 		<Metadata name="Catalog.Продукт" id="2a9e8887-c8a4-48c5-a712-38831fa9312f" configVersion="46f62ccf4c080ba2c02f478fc403b0388a4e43b3"/>
 		<Metadata name="Catalog.Склады" id="53250482-82f6-4698-9526-621a3a613314" configVersion="3942e710a9e2d17e3bb97d1c00cd358587f4070b"/>
+		<Metadata name="Catalog.ТелефоныКонтрагента" id="7f6705e3-b9c8-4697-ad67-23df172fbfd7" configVersion="788339f2ad796fc2b57e8cb18e5e2bf0e51294f2"/>
+		<Metadata name="Catalog.ТелефоныКонтрагента.Form.ФормаСписка" id="6eb1a191-7780-488a-a63f-4930eef3a4e4" configVersion="6c32f947c0cc4268706eb0b0865458319f736e6f"/>
+		<Metadata name="Catalog.ТелефоныКонтрагента.Form.ФормаСписка.Form" id="6eb1a191-7780-488a-a63f-4930eef3a4e4.0" configVersion="b9e558ce18568076ea9577b514b7f7ffd17ed332"/>
+		<Metadata name="Catalog.ТелефоныКонтрагента.Form.ФормаЭлемента" id="a87c4eaa-0ce4-4eed-acfa-794a14d65a9e" configVersion="8ef9b2bc2eee4ceb533d86462345f91453d543e3"/>
+		<Metadata name="Catalog.ТелефоныКонтрагента.Form.ФормаЭлемента.Form" id="a87c4eaa-0ce4-4eed-acfa-794a14d65a9e.0" configVersion="1d8a01cdf1608b532c558c545f8d29d483299631"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="0ec5ebb3-af3e-4128-b66d-ac613097d5ae" configVersion="6cd5abe8aec2dc327c44c87482d5f6e08fd49818"/>
 		<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы" id="f5a2d661-e7d0-41ac-a192-e31a3fee8fda" configVersion="0695570686deda99d3dc8360816902b4d46a83cb">
 			<Metadata name="Catalog.ФизическиеЛицаПрисоединенныеФайлы.Attribute.ФайлХранилище" id="6cb44927-205a-4402-8c5e-53367f10eace"/>
@@ -41,6 +41,7 @@
 		<Metadata name="CommonPicture.ubirator16" id="e1cd2bf5-f6da-4700-8d10-fd663f7eb634" configVersion="46fd131f3929b3cc1ebccdbc149ae923a1f42980"/>
 		<Metadata name="CommonPicture.ubirator16.Picture" id="e1cd2bf5-f6da-4700-8d10-fd663f7eb634.0" configVersion="131fb36e8f8fd60ae79d51a460b0e13b4d55f287"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="35c7bd83-f529-47e2-b285-723acd773007" configVersion="69f19b2e7037a9e1d289774a83bc1e0626a24c17"/>
+		<Metadata name="CommonPicture.КоллекцияНастройкиОтправкиЭДО" id="29d2efc3-c721-4ac9-be1d-5b10be98b06d" configVersion="822d1e5ca2b64d1608880e845732774ba6fa29d7"/>
 		<Metadata name="CommonPicture.НекорректныйКонтрагент" id="339f4604-e36f-4795-ade3-38a3cdbe6150" configVersion="cfa25943ff18cb186e0bdad09b7099548f541525"/>
 		<Metadata name="CommonPicture.Отчеты" id="112ed87c-eea3-4c68-9555-79550fc2361f" configVersion="7e0784b1083e7a04cd4c89b806ec66a268680898"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="bd89ba89-8698-414e-8f02-7b8d043708b3" configVersion="c66afd8ede8a90cf29f4f1e8580b590d63e5809e"/>
@@ -52,8 +53,8 @@
 		<Metadata name="CommonTemplate.ПФ_MXL_ТОРГ12_Переопределяемый.Template" id="700e8c24-cef2-4c21-ba19-23512c9571e9.0" configVersion="d85a57323d1fe2ed687ee8bf359e03258df05fe4"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый" id="1c6a89a0-3d3f-4e75-8972-717449100ff6" configVersion="9b034a4997884187d4bb3cf3e0cb224e04af2979"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УниверсальныйПередаточныйДокумент_Переопределяемый.Template" id="1c6a89a0-3d3f-4e75-8972-717449100ff6.0" configVersion="546b52c3d5e06e6cd831269174ec3679198c33d2"/>
-		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="22a9ee6926c6facf4b10569e2523c10d1a4926db"/>
-		<Metadata name="DataProcessor.ЗаполнениеПродукта" id="2abfe2d2-af88-4265-be74-b5f0444f1416" configVersion="81bc3dd7fe96ac67500abcd1e76e0214199d5b2e">
+		<Metadata name="Configuration.Интеграция" id="58e61416-2c81-437c-a69a-afc9e9b9faef" configVersion="215ecf507c0ddaafe2846f402cd33db6aea512c8"/>
+		<Metadata name="DataProcessor.ЗаполнениеПродукта" id="2abfe2d2-af88-4265-be74-b5f0444f1416" configVersion="7d993b5ff97fd1964b2c80c4f857a2c325f58072">
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.СуммаДокумента" id="1520e3d6-f75b-45c7-855e-19d5a7f872aa"/>
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов.Attribute.ДатаДокумента" id="16058ede-ba4f-4741-861d-04841d30f837"/>
 			<Metadata name="DataProcessor.ЗаполнениеПродукта.TabularSection.СписокДокументов" id="1b2772fe-d2ed-41b6-be81-9ce0c84c2456"/>
@@ -178,8 +179,12 @@
 		<Metadata name="Report.ДвиженияТоваровУслуг" id="60549101-dea2-49de-ba74-6637d751b74a" configVersion="3886bcc791f0178fc7a85b49dc78806aae309104"/>
 		<Metadata name="Report.ДвиженияТоваровУслуг.Template.ОсновнаяСхемаКомпоновкиДанных" id="88efcc75-47c2-4cc7-8ec2-bbc09c90dab3" configVersion="b5c8333c086291af2c2171ef014df5ef345071c1"/>
 		<Metadata name="Report.ДвиженияТоваровУслуг.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="88efcc75-47c2-4cc7-8ec2-bbc09c90dab3.0" configVersion="9f20ca0b1c1c4a51ac95b9dd0d5f85b184cf525e"/>
+		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаБанковскиеКартыКонтрагента" id="83f98760-a538-4a97-b1c2-bb5a2891b675" configVersion="f96d23f17a2b523bd4fffbd3ff10e74d474d0558"/>
+		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаБанковскиеКартыКонтрагента.Rights" id="83f98760-a538-4a97-b1c2-bb5a2891b675.0" configVersion="607d927d69ab781df37c5dcd70d032effc6572d5"/>
 		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаПродукт" id="3030cc8a-4e30-48b9-99ba-413c12bc67a4" configVersion="4cb7a41bfc47a51bc2577326bff51c8f953505fb"/>
 		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаПродукт.Rights" id="3030cc8a-4e30-48b9-99ba-413c12bc67a4.0" configVersion="4420865093dcff48c4e4130839737e1f53c29f3b"/>
+		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаТелефоныКонтрагента" id="cda1f399-87d5-443e-8bff-c9f5ae8447ac" configVersion="0b9a20eda635bf64ad11c62af49192995935591c"/>
+		<Metadata name="Role.ДобавлениеИзменениеДанныхСправочникаТелефоныКонтрагента.Rights" id="cda1f399-87d5-443e-8bff-c9f5ae8447ac.0" configVersion="f86e1c959075aba23e235a1a80c768080009f49b"/>
 		<Metadata name="Role.ИнтеграцияОсновнаяРоль" id="7b52ee16-b8d0-47d0-b3c5-399b28e7a804" configVersion="f50005b05c0e3d231abbcc5b3b3780bc55f736c0"/>
 		<Metadata name="Role.ИспользованиеОтчетовОбработокРасширения" id="74ea991b-8d11-47d2-8a33-a08fabd7e32d" configVersion="6f5e684b2eab9b8c8613b0a18a972be4856e6746"/>
 		<Metadata name="Role.ИспользованиеОтчетовОбработокРасширения.Rights" id="74ea991b-8d11-47d2-8a33-a08fabd7e32d.0" configVersion="658aa2fc41bf04c3f6ac0f946244d2dd34826879"/>
@@ -201,6 +206,6 @@
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="640ad2f5-9fdc-4f4f-8a79-46274d902fe5" configVersion="bae601ebe6ba3bac0b7f701714a933c98d8bc735"/>
 		<Metadata name="Subsystem.ОснованаяПодсистема" id="76a8103c-cc90-47f7-9426-91a4a728fcc0" configVersion="526cb45173e87c0c0bc3839c0c24087cb8abb7c2"/>
 		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.ОтчетыИОбработки" id="d97fb8aa-ab4d-415c-965e-834ab47205dc" configVersion="f37aec1ff3ffc29713cf0005005e6b830c6b7ea6"/>
-		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.Справочники" id="aaa2e697-ac10-4c88-8d25-7ff8a823a3c6" configVersion="7b3c05ec95a86a8e346ee49c7690339910c87bb5"/>
+		<Metadata name="Subsystem.ОснованаяПодсистема.Subsystem.Справочники" id="aaa2e697-ac10-4c88-8d25-7ff8a823a3c6" configVersion="54ada3130c3eff058f04eb0ed97d59d0fcdb3c78"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
