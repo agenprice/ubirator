@@ -71,7 +71,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПодразделениеДт</dataPath>
 			<field>ПодразделениеДт</field>
-			<title xsi:type="xs:string">Подрзделение (Дт)</title>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение (Дт)</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПодразделениеКт</dataPath>

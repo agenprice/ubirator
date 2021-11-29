@@ -166,10 +166,10 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="BeforeWriteAtServer" callType="Before">инт_ПередЗаписьюНаСервереПеред</Event>
-		<Event name="BeforeWriteAtServer" callType="After">инт_ПередЗаписьюНаСервереПосле</Event>
 		<Event name="OnCreateAtServer" callType="Before">инт_ПриСозданииНаСервереПеред</Event>
 		<Event name="OnCreateAtServer" callType="After">инт_ПриСозданииНаСервереПосле</Event>
+		<Event name="BeforeWriteAtServer" callType="Before">инт_ПередЗаписьюНаСервереПеред</Event>
+		<Event name="BeforeWriteAtServer" callType="After">инт_ПередЗаписьюНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ПредупреждениеОЗаполненииРеквизитовСчета" id="707">
