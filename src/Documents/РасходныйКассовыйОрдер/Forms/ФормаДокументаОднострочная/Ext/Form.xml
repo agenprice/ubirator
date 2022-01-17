@@ -184,7 +184,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="708"/>
 			<ChildItems>
 				<LabelField name="РеквизитыОрганизацииСсылка" id="709">
@@ -2205,7 +2205,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="708"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="709">

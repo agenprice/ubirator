@@ -158,7 +158,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="953"/>
 			<ChildItems>
 				<LabelField name="РеквизитыОрганизацииСсылка" id="954">
@@ -183,7 +183,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ГруппаПредупреждениеОбОшибкахЗагрузкиРасширеннаяПодсказка" id="1002"/>
 			<ChildItems>
 				<LabelDecoration name="ПредупреждениеОбОшибкахЗагрузки" id="1003">
@@ -2057,6 +2057,100 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаВыплатыСамозанятым" id="1102">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выплаты самозанятым</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыплатыСамозанятымРасширеннаяПодсказка" id="1105"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаРеестр" id="1094">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реестр</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРеестрРасширеннаяПодсказка" id="1095"/>
+							<ChildItems>
+								<InputField name="РеестрВыплатСамозанятым" id="1104">
+									<ContextMenu name="РеестрВыплатСамозанятымКонтекстноеМеню" id="1079"/>
+									<ExtendedTooltip name="РеестрВыплатСамозанятымРасширеннаяПодсказка" id="1080"/>
+								</InputField>
+								<LabelField name="СтатусЗагрузкиЧеков" id="1099">
+									<TitleLocation>None</TitleLocation>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="СтатусЗагрузкиЧековКонтекстноеМеню" id="1100"/>
+									<ExtendedTooltip name="СтатусЗагрузкиЧековРасширеннаяПодсказка" id="1101"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЧекиСамозанятых" id="1084">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Чеки самозанятых</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
+							<ExtendedTooltip name="ГруппаЧекиСамозанятыхРасширеннаяПодсказка" id="1085"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияЧекиСамозанятых" id="1088">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Чеки самозанятых:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияЧекиСамозанятыхКонтекстноеМеню" id="1089"/>
+									<ExtendedTooltip name="ДекорацияЧекиСамозанятыхРасширеннаяПодсказка" id="1090"/>
+								</LabelDecoration>
+								<Button name="ЗагрузитьЧекиИзФайла" id="1086">
+									<Type>UsualButton</Type>
+									<CommandName>0</CommandName>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ExtendedTooltip name="ЗагрузитьЧекиИзФайлаРасширеннаяПодсказка" id="1087">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Для корректного отражения в учете загрузите файл с реестром чеков самозанятых.
+Обычно этот файл предоставляет банк вместе с выпиской.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятым" id="1081">
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымКонтекстноеМеню" id="1082"/>
+							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымРасширеннаяПодсказка" id="1083">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОтражениеВУСН" id="683">
@@ -2477,7 +2571,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="953"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="954">
@@ -2502,7 +2596,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ГруппаПредупреждениеОбОшибкахЗагрузкиРасширеннаяПодсказка" id="1002"/>
 				<ChildItems>
 					<LabelDecoration name="ПредупреждениеОбОшибкахЗагрузки" id="1003">
@@ -4366,6 +4460,100 @@
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<ContextMenu name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаКонтекстноеМеню" id="1059"/>
 								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствПоДоговоруПодрядаРасширеннаяПодсказка" id="1060">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настроить автоматическое заполнение поля можно в справочнике &lt;link e1cib/list/Справочник.СтатьиДвиженияДенежныхСредств&gt;Статьи движения денежных средств&lt;/&gt;</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаВыплатыСамозанятым" id="1076">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выплаты самозанятым</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВыплатыСамозанятымРасширеннаяПодсказка" id="1077"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаРеестр" id="1094">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Реестр</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаРеестрРасширеннаяПодсказка" id="1095"/>
+								<ChildItems>
+									<InputField name="РеестрВыплатСамозанятым" id="1078">
+										<ContextMenu name="РеестрВыплатСамозанятымКонтекстноеМеню" id="1079"/>
+										<ExtendedTooltip name="РеестрВыплатСамозанятымРасширеннаяПодсказка" id="1080"/>
+									</InputField>
+									<LabelField name="СтатусЗагрузкиЧеков" id="1099">
+										<TitleLocation>None</TitleLocation>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Hiperlink>true</Hiperlink>
+										<ContextMenu name="СтатусЗагрузкиЧековКонтекстноеМеню" id="1100"/>
+										<ExtendedTooltip name="СтатусЗагрузкиЧековРасширеннаяПодсказка" id="1101"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаЧекиСамозанятых" id="1084">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Чеки самозанятых</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<BackColor>style:БыстрыеОтборыФонГруппы</BackColor>
+								<ExtendedTooltip name="ГруппаЧекиСамозанятыхРасширеннаяПодсказка" id="1085"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияЧекиСамозанятых" id="1088">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Чеки самозанятых:</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияЧекиСамозанятыхКонтекстноеМеню" id="1089"/>
+										<ExtendedTooltip name="ДекорацияЧекиСамозанятыхРасширеннаяПодсказка" id="1090"/>
+									</LabelDecoration>
+									<Button name="ЗагрузитьЧекиИзФайла" id="1086">
+										<Type>UsualButton</Type>
+										<CommandName>0</CommandName>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<ExtendedTooltip name="ЗагрузитьЧекиИзФайлаРасширеннаяПодсказка" id="1087">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Для корректного отражения в учете загрузите файл с реестром чеков самозанятых.
+Обычно этот файл предоставляет банк вместе с выпиской.</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятым" id="1081">
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымКонтекстноеМеню" id="1082"/>
+								<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствВыплатыСамозанятымРасширеннаяПодсказка" id="1083">
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>

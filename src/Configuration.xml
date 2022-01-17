@@ -44,7 +44,7 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>инт_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_16</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.18.3</Version>
+			<Version>1.0.19</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -68,7 +68,6 @@
 			<Subsystem>ОснованаяПодсистема</Subsystem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
-			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ЦветБаннераБежевыйЧекиНПД</StyleItem>
 			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
 			<StyleItem>ЦветБаннераБежевый</StyleItem>
@@ -82,12 +81,18 @@
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ЦветВыделенияКонтрагентаСОшибкой</StyleItem>
 			<StyleItem>НадписьПоясняющаяГиперссылку</StyleItem>
+			<StyleItem>ЦветФонаБлоковИнформационнойПанели</StyleItem>
+			<StyleItem>ШрифтТекстаБаннера</StyleItem>
+			<StyleItem>ГиперссылкаЦвет</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
+			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
 			<CommonPicture>ubirator16</CommonPicture>
 			<CommonPicture>КоллекцияНастройкиОтправкиЭДО</CommonPicture>
+			<CommonPicture>ПрослеживаемыйТовар</CommonPicture>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаПродукт</Role>
 			<Role>ИспользованиеОтчетовОбработокРасширения</Role>

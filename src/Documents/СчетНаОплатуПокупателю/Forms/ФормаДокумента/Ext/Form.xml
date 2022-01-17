@@ -204,7 +204,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ГруппаПредупреждениеОНекорректномРасчетномСчетеРасширеннаяПодсказка" id="650"/>
 			<ChildItems>
 				<LabelField name="ТекстПредупрежденияСчетОрганизации" id="651">
@@ -233,7 +233,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="515"/>
 			<ChildItems>
 				<LabelField name="РеквизитыОрганизацииСсылка" id="516">
@@ -689,7 +689,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="Организация" id="21">
-							<DataPath>1/0:3ad4c3fa-6765-490c-88fe-5f23ab187cd1</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="22"/>
 							<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="172"/>
@@ -863,6 +862,11 @@
 												<Type>CommandBarButton</Type>
 												<CommandName>0</CommandName>
 												<ExtendedTooltip name="ИзменитьТоварыРасширеннаяПодсказка" id="258"/>
+											</Button>
+											<Button name="ЗагрузитьИзФайла" id="678">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ЗагрузитьИзФайлаРасширеннаяПодсказка" id="679"/>
 											</Button>
 										</ChildItems>
 									</ButtonGroup>
@@ -1053,6 +1057,17 @@
 									<Width>10</Width>
 									<ContextMenu name="ТоварыВсегоКонтекстноеМеню" id="145"/>
 									<ExtendedTooltip name="ТоварыВсегоExtendedTooltip" id="201"/>
+								</InputField>
+								<InputField name="ТоварыРасходНаЕдиницу" id="680">
+									<ReadOnly>true</ReadOnly>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+									<Width>20</Width>
+									<TextColor>style:ГиперссылкаЦвет</TextColor>
+									<ContextMenu name="ТоварыРасходНаЕдиницуКонтекстноеМеню" id="683"/>
+									<ExtendedTooltip name="ТоварыРасходНаЕдиницуРасширеннаяПодсказка" id="684"/>
 								</InputField>
 								<InputField name="ТоварыОтступ" id="417">
 									<ReadOnly>true</ReadOnly>
@@ -1683,7 +1698,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ГруппаПредупреждениеОНекорректномРасчетномСчетеРасширеннаяПодсказка" id="650"/>
 				<ChildItems>
 					<LabelField name="ТекстПредупрежденияСчетОрганизации" id="651">
@@ -1712,7 +1727,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>style:ЦветФонаНекорректногоЗначенияБИП</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="515"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="516">
@@ -2168,7 +2183,6 @@
 								</ChildItems>
 							</UsualGroup>
 							<InputField name="Организация" id="21">
-								<DataPath>1/0:3ad4c3fa-6765-490c-88fe-5f23ab187cd1</DataPath>
 								<EditMode>EnterOnInput</EditMode>
 								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="22"/>
 								<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="172"/>
@@ -2342,6 +2356,11 @@
 													<Type>CommandBarButton</Type>
 													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ИзменитьТоварыРасширеннаяПодсказка" id="258"/>
+												</Button>
+												<Button name="ЗагрузитьИзФайла" id="678">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗагрузитьИзФайлаРасширеннаяПодсказка" id="679"/>
 												</Button>
 											</ChildItems>
 										</ButtonGroup>
@@ -2532,6 +2551,17 @@
 										<Width>10</Width>
 										<ContextMenu name="ТоварыВсегоКонтекстноеМеню" id="145"/>
 										<ExtendedTooltip name="ТоварыВсегоExtendedTooltip" id="201"/>
+									</InputField>
+									<InputField name="ТоварыРасходНаЕдиницу" id="675">
+										<ReadOnly>true</ReadOnly>
+										<HorizontalAlign>Right</HorizontalAlign>
+										<EditMode>EnterOnInput</EditMode>
+										<CellHyperlink>true</CellHyperlink>
+										<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+										<Width>20</Width>
+										<TextColor>style:ГиперссылкаЦвет</TextColor>
+										<ContextMenu name="ТоварыРасходНаЕдиницуКонтекстноеМеню" id="676"/>
+										<ExtendedTooltip name="ТоварыРасходНаЕдиницуРасширеннаяПодсказка" id="677"/>
 									</InputField>
 									<InputField name="ТоварыОтступ" id="417">
 										<ReadOnly>true</ReadOnly>

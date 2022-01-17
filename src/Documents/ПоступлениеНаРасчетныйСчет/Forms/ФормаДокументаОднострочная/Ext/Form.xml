@@ -161,7 +161,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="1258"/>
 			<ChildItems>
 				<LabelField name="РеквизитыОрганизацииСсылка" id="1259">
@@ -186,7 +186,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+			<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 			<ExtendedTooltip name="ГруппаПредупреждениеОбОшибкахЗагрузкиРасширеннаяПодсказка" id="1295"/>
 			<ChildItems>
 				<LabelDecoration name="ПредупреждениеОбОшибкахЗагрузки" id="1296">
@@ -2528,7 +2528,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 				<ExtendedTooltip name="ПредупреждениеОЗаполненииРеквизитовСчетаРасширеннаяПодсказка" id="1258"/>
 				<ChildItems>
 					<LabelField name="РеквизитыОрганизацииСсылка" id="1259">
@@ -2553,7 +2553,7 @@
 				<Behavior>Usual</Behavior>
 				<Representation>NormalSeparation</Representation>
 				<ShowTitle>false</ShowTitle>
-				<BackColor>style:ЦветФонаНекорректногоКонтрагентаВДокументе</BackColor>
+				<BackColor>0:09de72e5-f480-4e4e-a3c8-7c9efa53563a</BackColor>
 				<ExtendedTooltip name="ГруппаПредупреждениеОбОшибкахЗагрузкиРасширеннаяПодсказка" id="1295"/>
 				<ChildItems>
 					<LabelDecoration name="ПредупреждениеОбОшибкахЗагрузки" id="1296">
