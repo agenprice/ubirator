@@ -6,7 +6,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа период</v8:content>
+					<v8:content>Период</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -17,7 +17,6 @@
 			</ToolTip>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
-			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="46"/>
 			<ChildItems>
 				<InputField name="НачалоПериода" id="26">
@@ -32,37 +31,85 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Организация" id="42">
-			<DataPath>Объект.Организация</DataPath>
-			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="43"/>
-			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="44"/>
-		</InputField>
-		<InputField name="Подразделение" id="47">
-			<DataPath>Объект.Подразделение</DataPath>
-			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="48"/>
-			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="49"/>
-		</InputField>
-		<InputField name="Договор" id="50">
-			<DataPath>Объект.Договор</DataPath>
-			<ContextMenu name="ДоговорКонтекстноеМеню" id="51"/>
-			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="52"/>
-		</InputField>
-		<InputField name="Комментарий" id="53">
-			<DataPath>Объект.Комментарий</DataPath>
-			<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
-			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="55"/>
-		</InputField>
-		<InputField name="ВидДокумента" id="1">
-			<DataPath>Объект.ВидДокумента</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Продукт" id="36">
-			<DataPath>Объект.Продукт</DataPath>
-			<ContextMenu name="ПродуктКонтекстноеМеню" id="37"/>
-			<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="38"/>
-		</InputField>
+		<UsualGroup name="ГруппаФильтр" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фильтр</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа фильтр</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаФильтрРасширеннаяПодсказка" id="72"/>
+			<ChildItems>
+				<InputField name="Организация" id="42">
+					<DataPath>Объект.Организация</DataPath>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<InputField name="Подразделение" id="47">
+					<DataPath>Объект.Подразделение</DataPath>
+					<ContextMenu name="ПодразделениеКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="Договор" id="50">
+					<DataPath>Объект.Договор</DataPath>
+					<ContextMenu name="ДоговорКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="Комментарий" id="53">
+					<DataPath>Объект.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="ВидДокумента" id="1">
+					<DataPath>Объект.ВидДокумента</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВидДокументаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="ПродуктФильтр" id="78">
+					<DataPath>Объект.ПродуктФильтр</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукт</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПродуктФильтрКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="ПродуктФильтрРасширеннаяПодсказка" id="80"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаУстановить" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа установить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаУстановитьРасширеннаяПодсказка" id="74"/>
+			<ChildItems>
+				<InputField name="Продукт" id="36">
+					<DataPath>Объект.Продукт</DataPath>
+					<ContextMenu name="ПродуктКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="38"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="СписокДокументов" id="4">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -73,6 +120,21 @@
 			<ContextMenu name="СписокДокументовКонтекстноеМеню" id="5"/>
 			<AutoCommandBar name="СписокДокументовКоманднаяПанель" id="6">
 				<ChildItems>
+					<Button name="СписокДокументовВыделитьВсе" id="87">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Command.ВыделитьВсе</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.CheckAll</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="СписокДокументовВыделитьВсеРасширеннаяПодсказка" id="88"/>
+					</Button>
+					<Button name="СписокДокументовСнятьВыделениеВсех" id="89">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СнятьВыделениеВсех</CommandName>
+						<ExtendedTooltip name="СписокДокументовСнятьВыделениеВсехРасширеннаяПодсказка" id="90"/>
+					</Button>
 					<Button name="СписокДокументовЗаполнить" id="32">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Заполнить</CommandName>
@@ -117,6 +179,13 @@
 					<ContextMenu name="СписокДокументовНомерСтрокиКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="СписокДокументовНомерСтрокиРасширеннаяПодсказка" id="19"/>
 				</LabelField>
+				<CheckBoxField name="СписокДокументовОбновлять" id="84">
+					<DataPath>Объект.СписокДокументов.Обновлять</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокДокументовОбновлятьКонтекстноеМеню" id="85"/>
+					<ExtendedTooltip name="СписокДокументовОбновлятьРасширеннаяПодсказка" id="86"/>
+				</CheckBoxField>
 				<InputField name="СписокДокументовДатаДокуиента" id="68">
 					<DataPath>Объект.СписокДокументов.ДатаДокумента</DataPath>
 					<Title>
@@ -159,6 +228,18 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокДокументовПродуктКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="СписокДокументовПродуктРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="СписокДокументовВидОперации" id="75">
+					<DataPath>Объект.СписокДокументов.ВидОперации</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовВидОперацииКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="СписокДокументовВидОперацииРасширеннаяПодсказка" id="77"/>
+				</InputField>
+				<InputField name="СписокДокументовСубконто1" id="81">
+					<DataPath>Объект.СписокДокументов.Субконто1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовСубконто1КонтекстноеМеню" id="82"/>
+					<ExtendedTooltip name="СписокДокументовСубконто1РасширеннаяПодсказка" id="83"/>
 				</InputField>
 				<InputField name="СписокДокументовСуммаДокумента" id="65">
 					<DataPath>Объект.СписокДокументов.СуммаДокумента</DataPath>
@@ -215,6 +296,42 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Обновить</Action>
+		</Command>
+		<Command name="ВыделитьВсе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выделить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выделить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Space</Shortcut>
+			<Action>ВыделитьВсе</Action>
+		</Command>
+		<Command name="СнятьВыделениеВсех" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять выделение всех</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять выделение всех</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Space</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СнятьВыделениеВсех</Action>
 		</Command>
 	</Commands>
 </Form>
