@@ -160,6 +160,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="BeforeWriteAtServer" callType="Before">инт_ПередЗаписьюНаСервереПеред</Event>
 		<Event name="OnCreateAtServer" callType="After">инт_ПриСозданииНаСервереПосле</Event>
 		<Event name="BeforeWriteAtServer" callType="Before">инт_ПередЗаписьюНаСервереПеред</Event>
 	</Events>
