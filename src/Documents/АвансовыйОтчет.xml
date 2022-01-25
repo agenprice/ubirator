@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Document uuid="cdb711b5-2237-47cc-bbd4-ec3ed3df03e7">
+	<Document uuid="afb5717e-1be4-468e-bf89-b27fd2be94e6">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ПоступлениеТоваровУслуг" category="Object">
-				<xr:TypeId>873898f4-b521-4536-999d-31f752cd5b54</xr:TypeId>
-				<xr:ValueId>0443ed7f-ef81-4030-9b1f-3e288d8d3081</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.АвансовыйОтчет" category="Object">
+				<xr:TypeId>1b237ded-e7a8-4a8e-986a-a7dd8c5f953e</xr:TypeId>
+				<xr:ValueId>015461f2-670d-4706-ae47-0745388cc3cd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ПоступлениеТоваровУслуг" category="Ref">
-				<xr:TypeId>9c6830c4-1c7d-4f5c-8dd7-d01315dbf84b</xr:TypeId>
-				<xr:ValueId>7c5474eb-391e-4876-9ee0-ff65eeae30eb</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.АвансовыйОтчет" category="Ref">
+				<xr:TypeId>2304cdec-7570-4b4a-ac6c-066d01474a5a</xr:TypeId>
+				<xr:ValueId>7d1d93b5-c22d-4015-8a52-3e155a196f64</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ПоступлениеТоваровУслуг" category="Selection">
-				<xr:TypeId>60d11cfb-8bc0-433a-8dc6-a1bc10447f4d</xr:TypeId>
-				<xr:ValueId>c7be9166-e406-443a-8dda-babbaa913f81</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.АвансовыйОтчет" category="Selection">
+				<xr:TypeId>84d19ee7-ce36-416d-9f85-abf4b75ddbe2</xr:TypeId>
+				<xr:ValueId>bb735257-d831-443a-9b0c-4fead3f8e984</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ПоступлениеТоваровУслуг" category="List">
-				<xr:TypeId>902a3ad0-fe77-42e4-b59e-a28b17d35a75</xr:TypeId>
-				<xr:ValueId>3d373abc-6610-474b-944c-e84d69f1af02</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.АвансовыйОтчет" category="List">
+				<xr:TypeId>643bdf6e-3bf7-44e1-b8b8-8200c9b3aa61</xr:TypeId>
+				<xr:ValueId>286e3515-27ce-429e-9f5b-e9eb391c9c81</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ПоступлениеТоваровУслуг" category="Manager">
-				<xr:TypeId>ed9f4a9e-dd6f-4fc6-9741-f95aba031a88</xr:TypeId>
-				<xr:ValueId>1b01e1fa-87be-4e07-97ba-da8999981d0a</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.АвансовыйОтчет" category="Manager">
+				<xr:TypeId>39bca2d8-6899-4f20-ba17-120d71d53d43</xr:TypeId>
+				<xr:ValueId>28320ba6-8d94-41d1-8fa4-e6f8b8c2998d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПоступлениеТоваровУслуг</Name>
+			<Name>АвансовыйОтчет</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>37ec4311-be9a-4853-a06f-4bfc21e493a5</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject>fcaee2cb-0d08-4617-98c7-044bf5d3c3bd</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a19f6eac-6824-4802-aec2-da0204c4d0dd">
+			<Attribute uuid="51e95d45-e2ec-411b-89dc-9e8267fa0fd2">
 				<Properties>
 					<Name>Продукт</Name>
 					<Synonym>
@@ -70,10 +70,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаДокументаОбщая</Form>
-			<Form>ФормаДокументаТовары</Form>
-			<Form>ФормаДокументаУслуги</Form>
-			<Form>ФормаДокументаОсновныеСредства</Form>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаДокументаКомандировка</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

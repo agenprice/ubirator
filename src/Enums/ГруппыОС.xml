@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Enum uuid="1b03017e-c3ea-40e5-b0d0-6fe1866af20b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ГруппыОС" category="Ref">
+				<xr:TypeId>68ba8124-371f-4957-a2fc-5f14e80bfe32</xr:TypeId>
+				<xr:ValueId>348b4caf-6287-487c-b237-1a6b374bade8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ГруппыОС" category="Manager">
+				<xr:TypeId>ad321894-1d9e-4e92-b354-b9499435c859</xr:TypeId>
+				<xr:ValueId>584c7db8-3669-4ab7-a53f-a7e9d8614707</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ГруппыОС" category="List">
+				<xr:TypeId>7373125d-38f7-462d-ba0a-183effb3fc74</xr:TypeId>
+				<xr:ValueId>1d1326f5-11e5-41c9-8c9c-d35e45232a21</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыОС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>cd1700fa-fec7-4a47-8ef4-452f9c02b0ae</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="45d7a24a-50ef-4a09-b32b-d69c21ca3cfb">
+				<InternalInfo/>
+				<Properties>
+					<Name>РабочийСкот</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3b18b5bc-87a8-4303-bfa0-e62d6b2f0c76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ec8cf206-abb1-452a-b346-3629cb0f8409">
+				<InternalInfo/>
+				<Properties>
+					<Name>Здания</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b7f03898-b0d0-4fc9-9c0b-0cee81184036</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="092677e1-8221-430a-b43f-d27f3690f367">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сооружения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>22a741e3-c921-4cdd-940e-88a38a7150f1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="858926c5-9d1d-4ad2-a560-59f61068c80a">
+				<InternalInfo/>
+				<Properties>
+					<Name>МашиныИОборудование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1d82004e-6083-4559-a3c5-2f576f80eb65</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca0988cc-0394-4142-83d7-9f1a83a1377f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТранспортныеСредства</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c63dc97a-8ec3-4c5e-80e1-1f4650bca843</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="37adbef4-58ae-4282-a219-f6a5d26a25ae">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОфисноеОборудование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5de7e832-bf5c-45fa-9dc4-06efafa90d63</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f8ef1d13-ca39-4c54-a351-e50d04f82e46">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПроизводственныйИХозяйственныйИнвентарь</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b106894f-6e3e-4c39-896b-dbb65200e2d6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82dfa15b-389a-499e-8bf1-668eef6ea240">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПродуктивныйСкот</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d19f18e9-7374-4d9f-a93f-566aaa621e9c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="52558a56-0001-4fef-9513-79d7de8da4e1">
+				<InternalInfo/>
+				<Properties>
+					<Name>МноголетниеНасаждения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b6cd7c08-e15e-4ad3-bc68-178caff9e201</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7698395d-8e69-45c2-be4d-08d797327b7b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДругиеВидыОсновныхСредств</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b6969817-1806-4d33-a35a-1f2f97290f2a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

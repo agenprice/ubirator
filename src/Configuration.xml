@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.19.2</Version>
+			<Version>1.0.20</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -86,6 +86,7 @@
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоЗначенияБИП</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
+			<StyleItem>НекорректныйКонтрагентЦветФонаВСписке</StyleItem>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
@@ -93,6 +94,7 @@
 			<CommonPicture>ubirator16</CommonPicture>
 			<CommonPicture>КоллекцияНастройкиОтправкиЭДО</CommonPicture>
 			<CommonPicture>ПрослеживаемыйТовар</CommonPicture>
+			<CommonPicture>ЗадачаУплатаНалога</CommonPicture>
 			<Role>ИнтеграцияОсновнаяРоль</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаПродукт</Role>
 			<Role>ИспользованиеОтчетовОбработокРасширения</Role>
@@ -137,6 +139,7 @@
 			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>СчетНаОплатуПоставщика</Document>
 			<Document>ПоступлениеДопРасходов</Document>
+			<Document>АвансовыйОтчет</Document>
 			<Enum>ВидыОперацийРеализацияТоваров</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
@@ -145,6 +148,8 @@
 			<Enum>ВидыДокументов</Enum>
 			<Enum>СостоянияКонтрагентаБЭД</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
+			<Enum>ВидыДокументовПодтверждающихКомандировочныеРасходы</Enum>
+			<Enum>ГруппыОС</Enum>
 			<Report>ДвиженияТоваровУслуг</Report>
 			<DataProcessor>ЗаполнениеПродукта</DataProcessor>
 			<DataProcessor>РегистрацияОбъектовOData</DataProcessor>

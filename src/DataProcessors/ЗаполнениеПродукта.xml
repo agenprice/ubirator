@@ -496,6 +496,7 @@
 							<Type>
 								<v8:Type>cfg:DocumentRef.СчетНаОплатуПокупателю</v8:Type>
 								<v8:Type>cfg:DocumentRef.ПоступлениеНаРасчетныйСчет</v8:Type>
+								<v8:Type>cfg:DocumentRef.АвансовыйОтчет</v8:Type>
 								<v8:Type>cfg:DocumentRef.ПоступлениеДопРасходов</v8:Type>
 								<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
 								<v8:Type>cfg:DocumentRef.ПоступлениеТоваровУслуг</v8:Type>

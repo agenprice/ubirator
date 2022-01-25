@@ -81,34 +81,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.НомераТелефоновСводно.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.НомераТелефоновСводно.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.НомераТелефоновСводно.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.НомераТелефоновСводно.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.ОснованаяПодсистема.Subsystem.ОтчетыИОбработки</name>
 		<right>
 			<name>View</name>
