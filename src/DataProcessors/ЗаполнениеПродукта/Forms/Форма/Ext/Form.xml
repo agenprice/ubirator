@@ -85,6 +85,11 @@
 					<ContextMenu name="ПродуктФильтрКонтекстноеМеню" id="79"/>
 					<ExtendedTooltip name="ПродуктФильтрРасширеннаяПодсказка" id="80"/>
 				</InputField>
+				<InputField name="СтатьяРасходовУУФильтр" id="94">
+					<DataPath>Объект.СтатьяРасходовУУФильтр</DataPath>
+					<ContextMenu name="СтатьяРасходовУУФильтрКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="СтатьяРасходовУУФильтрРасширеннаяПодсказка" id="96"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаУстановить" id="73">
@@ -107,6 +112,11 @@
 					<DataPath>Объект.Продукт</DataPath>
 					<ContextMenu name="ПродуктКонтекстноеМеню" id="37"/>
 					<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="СтатьяРасходовУУ" id="91">
+					<DataPath>Объект.СтатьяРасходовУУ</DataPath>
+					<ContextMenu name="СтатьяРасходовУУКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="СтатьяРасходовУУРасширеннаяПодсказка" id="93"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -229,6 +239,13 @@
 					<ContextMenu name="СписокДокументовПродуктКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="СписокДокументовПродуктРасширеннаяПодсказка" id="25"/>
 				</InputField>
+				<InputField name="СписокДокументовСтатьяРасходовУУ" id="97">
+					<DataPath>Объект.СписокДокументов.СтатьяРасходовУУ</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокДокументовСтатьяРасходовУУКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="СписокДокументовСтатьяРасходовУУРасширеннаяПодсказка" id="99"/>
+				</InputField>
 				<InputField name="СписокДокументовВидОперации" id="75">
 					<DataPath>Объект.СписокДокументов.ВидОперации</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -264,6 +281,9 @@
 				<v8:Type>cfg:DataProcessorObject.ЗаполнениеПродукта</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<Columns>
+				<AdditionalColumns table="Объект.СписокДокументов"/>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>

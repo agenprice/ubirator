@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтеграцияОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ubirator.com</Vendor>
-			<Version>1.0.20</Version>
+			<Version>1.0.22</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -100,6 +100,7 @@
 			<Role>ИспользованиеОтчетовОбработокРасширения</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаТелефоныКонтрагента</Role>
 			<Role>ДобавлениеИзменениеДанныхСправочникаБанковскиеКартыКонтрагента</Role>
+			<Role>ДобавлениеИзменениеДанныхСправочникаСтатьиРасходовУУ</Role>
 			<CommonTemplate>ПФ_MXL_ТОРГ12_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_Акт_Переопределяемый</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СчетЗаказ_Переопределяемый</CommonTemplate>
@@ -129,6 +130,7 @@
 			<Catalog>ТелефоныКонтрагента</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>БанковскиеКартыКонтрагента</Catalog>
+			<Catalog>СтатьиРасходовУУ</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>СчетФактураВыданный</Document>
@@ -140,6 +142,7 @@
 			<Document>СчетНаОплатуПоставщика</Document>
 			<Document>ПоступлениеДопРасходов</Document>
 			<Document>АвансовыйОтчет</Document>
+			<Document>ОприходованиеТоваров</Document>
 			<Enum>ВидыОперацийРеализацияТоваров</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>

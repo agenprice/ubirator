@@ -1135,6 +1135,41 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаПродукт" id="624">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа продукт</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа продукт</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПродуктРасширеннаяПодсказка" id="625"/>
+					<ChildItems>
+						<InputField name="Продукт" id="621">
+							<DataPath>Продукт</DataPath>
+							<ContextMenu name="ПродуктКонтекстноеМеню" id="622"/>
+							<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="623"/>
+							<Events>
+								<Event name="OnChange" callType="Override">инт_ПродуктПриИзмененииВместо</Event>
+							</Events>
+						</InputField>
+						<InputField name="СтатьяРасходовУУ" id="626">
+							<DataPath>СтатьяРасходовУУ</DataPath>
+							<ContextMenu name="СтатьяРасходовУУКонтекстноеМеню" id="627"/>
+							<ExtendedTooltip name="СтатьяРасходовУУРасширеннаяПодсказка" id="628"/>
+							<Events>
+								<Event name="OnChange" callType="Override">инт_СтатьяРасходовУУПриИзмененииВместо</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаКомментарий" id="544">
 					<Title>
 						<v8:item>
@@ -1148,14 +1183,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="545"/>
 					<ChildItems>
-						<InputField name="Продукт" id="621">
-							<DataPath>Продукт</DataPath>
-							<ContextMenu name="ПродуктКонтекстноеМеню" id="622"/>
-							<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="623"/>
-							<Events>
-								<Event name="OnChange" callType="Override">инт_ПродуктПриИзмененииВместо</Event>
-							</Events>
-						</InputField>
 						<InputField name="Комментарий" id="546">
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
@@ -1182,6 +1209,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Продукт</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатьяРасходовУУ" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья расходов УУ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СтатьиРасходовУУ</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

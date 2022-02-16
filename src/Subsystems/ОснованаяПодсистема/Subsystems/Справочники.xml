@@ -18,6 +18,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Продукт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелефоныКонтрагента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БанковскиеКартыКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиРасходовУУ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

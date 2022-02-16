@@ -2503,6 +2503,35 @@
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаПродукт" id="1350">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа продукт</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа продукт</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПродуктРасширеннаяПодсказка" id="1351"/>
+					<ChildItems>
+						<InputField name="Продукт" id="1256">
+							<DataPath>Продукт</DataPath>
+							<ContextMenu name="ПродуктКонтекстноеМеню" id="1257"/>
+							<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="1258"/>
+						</InputField>
+						<InputField name="СатьяРасходовУУ" id="1352">
+							<DataPath>СатьяРасходовУУ</DataPath>
+							<ContextMenu name="СатьяРасходовУУКонтекстноеМеню" id="1353"/>
+							<ExtendedTooltip name="СатьяРасходовУУРасширеннаяПодсказка" id="1354"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаКомментарийОтветственный" id="532">
 					<Title>
 						<v8:item>
@@ -2522,11 +2551,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="533"/>
 					<ChildItems>
-						<InputField name="Продукт" id="1256">
-							<DataPath>Продукт</DataPath>
-							<ContextMenu name="ПродуктКонтекстноеМеню" id="1257"/>
-							<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="1258"/>
-						</InputField>
 						<InputField name="Комментарий" id="21">
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
@@ -2554,6 +2578,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Продукт</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СатьяРасходовУУ" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сатья расходов УУ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СтатьиРасходовУУ</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
