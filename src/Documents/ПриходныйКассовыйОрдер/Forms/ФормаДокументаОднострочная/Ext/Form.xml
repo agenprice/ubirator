@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -94,7 +94,6 @@
 							<Button name="ОбщаяКомандаФискальныеОперацииПоДокументу" id="870">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<Parameter xsi:type="xr:MDObjectRef">13d460b9-9c77-42dd-b9d8-dc6419b9daac</Parameter>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -354,13 +353,6 @@
 							<ChildItems>
 								<InputField name="ВидОперации" id="9">
 									<EditMode>EnterOnInput</EditMode>
-									<ChoiceParameterLinks>
-										<xr:Link>
-											<xr:Name>Отбор.Организация</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-											<xr:ValueChange>DontChange</xr:ValueChange>
-										</xr:Link>
-									</ChoiceParameterLinks>
 									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="10"/>
 									<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="383"/>
 								</InputField>
@@ -666,13 +658,6 @@
 						</InputField>
 						<InputField name="ПодразделениеОрганизации" id="65">
 							<EditMode>EnterOnInput</EditMode>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
 							<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="66"/>
 							<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="388"/>
 						</InputField>
@@ -754,18 +739,6 @@
 										<InputField name="РасшифровкаПлатежаДоговорКонтрагента" id="728">
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-												<xr:Link>
-													<xr:Name>Отбор.Организация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="729"/>
 											<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="730"/>
 										</InputField>
@@ -781,23 +754,6 @@
 											<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="736"/>
 										</InputField>
 										<InputField name="РасшифровкаПлатежаСчетНаОплату" id="737">
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Контрагент</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-												<xr:Link>
-													<xr:Name>Отбор.Организация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-												<xr:Link>
-													<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-													<xr:DataPath xsi:type="xs:string">57</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="738"/>
 											<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="739"/>
 										</InputField>
@@ -1031,23 +987,6 @@
 															</Title>
 															<TitleHeight>1</TitleHeight>
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
-															<ChoiceParameterLinks>
-																<xr:Link>
-																	<xr:Name>Отбор.Контрагент</xr:Name>
-																	<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-																	<xr:ValueChange>Clear</xr:ValueChange>
-																</xr:Link>
-																<xr:Link>
-																	<xr:Name>Отбор.Организация</xr:Name>
-																	<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-																	<xr:ValueChange>Clear</xr:ValueChange>
-																</xr:Link>
-																<xr:Link>
-																	<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-																	<xr:DataPath xsi:type="xs:string">57</xr:DataPath>
-																	<xr:ValueChange>Clear</xr:ValueChange>
-																</xr:Link>
-															</ChoiceParameterLinks>
 															<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="722"/>
 															<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="723"/>
 														</InputField>
@@ -1320,13 +1259,6 @@
 													<v8:content>Подразделение</v8:content>
 												</v8:item>
 											</Title>
-											<ChoiceParameterLinks>
-												<xr:Link>
-													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-													<xr:ValueChange>Clear</xr:ValueChange>
-												</xr:Link>
-											</ChoiceParameterLinks>
 											<ContextMenu name="ПодразделениеКтКонтекстноеМеню" id="145"/>
 											<ExtendedTooltip name="ПодразделениеКтРасширеннаяПодсказка" id="472"/>
 										</InputField>
@@ -1660,7 +1592,7 @@
 			</Type>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.13">
+	<BaseForm version="2.14">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 			<ChildItems>
@@ -1755,7 +1687,6 @@
 								<Button name="ОбщаяКомандаФискальныеОперацииПоДокументу" id="870">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<Parameter xsi:type="xr:MDObjectRef">13d460b9-9c77-42dd-b9d8-dc6419b9daac</Parameter>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2009,13 +1940,6 @@
 								<ChildItems>
 									<InputField name="ВидОперации" id="9">
 										<EditMode>EnterOnInput</EditMode>
-										<ChoiceParameterLinks>
-											<xr:Link>
-												<xr:Name>Отбор.Организация</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-												<xr:ValueChange>DontChange</xr:ValueChange>
-											</xr:Link>
-										</ChoiceParameterLinks>
 										<ContextMenu name="ВидОперацииКонтекстноеМеню" id="10"/>
 										<ExtendedTooltip name="ВидОперацииExtendedTooltip" id="383"/>
 									</InputField>
@@ -2321,13 +2245,6 @@
 							</InputField>
 							<InputField name="ПодразделениеОрганизации" id="65">
 								<EditMode>EnterOnInput</EditMode>
-								<ChoiceParameterLinks>
-									<xr:Link>
-										<xr:Name>Отбор.Владелец</xr:Name>
-										<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-										<xr:ValueChange>Clear</xr:ValueChange>
-									</xr:Link>
-								</ChoiceParameterLinks>
 								<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="66"/>
 								<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="388"/>
 							</InputField>
@@ -2409,18 +2326,6 @@
 											<InputField name="РасшифровкаПлатежаДоговорКонтрагента" id="728">
 												<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 												<AutoMarkIncomplete>true</AutoMarkIncomplete>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-													<xr:Link>
-														<xr:Name>Отбор.Организация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="РасшифровкаПлатежаДоговорКонтрагентаКонтекстноеМеню" id="729"/>
 												<ExtendedTooltip name="РасшифровкаПлатежаДоговорКонтрагентаРасширеннаяПодсказка" id="730"/>
 											</InputField>
@@ -2436,23 +2341,6 @@
 												<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="736"/>
 											</InputField>
 											<InputField name="РасшифровкаПлатежаСчетНаОплату" id="737">
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Контрагент</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-													<xr:Link>
-														<xr:Name>Отбор.Организация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-													<xr:Link>
-														<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-														<xr:DataPath xsi:type="xs:string">57</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="РасшифровкаПлатежаСчетНаОплатуКонтекстноеМеню" id="738"/>
 												<ExtendedTooltip name="РасшифровкаПлатежаСчетНаОплатуРасширеннаяПодсказка" id="739"/>
 											</InputField>
@@ -2686,23 +2574,6 @@
 																</Title>
 																<TitleHeight>1</TitleHeight>
 																<AutoMarkIncomplete>true</AutoMarkIncomplete>
-																<ChoiceParameterLinks>
-																	<xr:Link>
-																		<xr:Name>Отбор.Контрагент</xr:Name>
-																		<xr:DataPath xsi:type="xs:string">1/0:85623315-b574-4b84-aa97-493333897bb3</xr:DataPath>
-																		<xr:ValueChange>Clear</xr:ValueChange>
-																	</xr:Link>
-																	<xr:Link>
-																		<xr:Name>Отбор.Организация</xr:Name>
-																		<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-																		<xr:ValueChange>Clear</xr:ValueChange>
-																	</xr:Link>
-																	<xr:Link>
-																		<xr:Name>Отбор.ДоговорКонтрагента</xr:Name>
-																		<xr:DataPath xsi:type="xs:string">57</xr:DataPath>
-																		<xr:ValueChange>Clear</xr:ValueChange>
-																	</xr:Link>
-																</ChoiceParameterLinks>
 																<ContextMenu name="РасшифровкаПлатежаСделкаКонтекстноеМеню" id="722"/>
 																<ExtendedTooltip name="РасшифровкаПлатежаСделкаРасширеннаяПодсказка" id="723"/>
 															</InputField>
@@ -2975,13 +2846,6 @@
 														<v8:content>Подразделение</v8:content>
 													</v8:item>
 												</Title>
-												<ChoiceParameterLinks>
-													<xr:Link>
-														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1/0:2ba5f227-93de-456f-95cf-f75599b8d207</xr:DataPath>
-														<xr:ValueChange>Clear</xr:ValueChange>
-													</xr:Link>
-												</ChoiceParameterLinks>
 												<ContextMenu name="ПодразделениеКтКонтекстноеМеню" id="145"/>
 												<ExtendedTooltip name="ПодразделениеКтРасширеннаяПодсказка" id="472"/>
 											</InputField>

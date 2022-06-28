@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Enum uuid="01070048-92ad-4311-9aee-f8adc4e88ec0">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ВидыДокументовПодтверждающихКомандировочныеРасходы" category="Ref">
@@ -19,7 +19,7 @@
 			<Name>ВидыДокументовПодтверждающихКомандировочныеРасходы</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>c2df2556-7d58-46ba-bd56-5fed41e46887</ExtendedConfigurationObject>
+			<ExtendedConfigurationObject/>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="952b6177-4fdd-4a82-8e4a-19afc85aa9bd">
@@ -28,7 +28,7 @@
 					<Name>Билет</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>7ac3f7a4-4a77-4dc6-8d69-9efbb5b1f5c4</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0e0dd72f-fbec-4cdf-9df7-fc806fa76fb6">
@@ -37,7 +37,7 @@
 					<Name>Чек</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>abd197ae-753a-4cd3-af52-e16e745db275</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4e1be35d-f93c-4715-af82-a488014f061f">
@@ -46,7 +46,7 @@
 					<Name>ДругойДокумент</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>e9c96821-dbdc-4c40-a86d-668407066976</ExtendedConfigurationObject>
+					<ExtendedConfigurationObject/>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>
